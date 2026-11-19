@@ -163,29 +163,56 @@ window.gym = (function () {
 
     // ---- Sonstiges
     let dotnetRef = null;
-    function register(ref) { dotnetRef = ref; initGestures(); }
+    function register(ref) { dotnetRef = ref; initGestures(); setTimeout(heal, 300); setTimeout(heal, 1500); }
 
-    // ---- iOS-Fehler bei Home-Bildschirm-Apps: Der sichtbare Bereich endet um die Höhe der
-    // Statusleiste zu früh (unten bleibt ein Streifen). Lücke messen und die App dorthin verlängern.
-    function fixViewport() {
-        let gap = 0;
-        try {
-            const standalone = navigator.standalone === true || matchMedia('(display-mode: standalone)').matches;
-            if (standalone && innerHeight > innerWidth) {
-                const sh = Math.max(screen.width, screen.height);
-                gap = Math.round(sh - innerHeight);
-                if (gap < 0 || gap > 80) gap = 0;
-            }
-        } catch (_) { gap = 0; }
-        document.documentElement.style.setProperty('--vgap', gap + 'px');
-        return gap;
+    // ---- iOS-Fehler bei Home-Bildschirm-Apps (beide kosten genau die Höhe der Statusleiste):
+    // 1. Kaltstart: mit height:100% bekommt die App zu wenig Höhe, darunter zeichnet WebKit nichts.
+    //    Abhilfe: html/body/.app auf 100vh (CSS, html[data-standalone]).
+    // 2. Nach dem ersten Öffnen der Tastatur schrumpft das Fenster und bleibt klein.
+    //    Abhilfe: die volle App-Fläche kurz aus- und einblenden, dann misst WebKit neu.
+    // Bleibt das Fenster danach trotzdem kurz, wird die App auf das sichtbare Fenster begrenzt
+    // (html[data-vshort]), damit die Leiste nie abgeschnitten wird.
+    const root = document.documentElement;
+    const standalone = (() => { try { return navigator.standalone === true || matchMedia('(display-mode: standalone)').matches; } catch (_) { return false; } })();
+    if (standalone) root.setAttribute('data-standalone', '1');
+    let maxH = 0;
+    const screenH = () => innerHeight > innerWidth ? Math.max(screen.width, screen.height) : Math.min(screen.width, screen.height);
+    const typing = () => { const a = document.activeElement; return !!a && (a.tagName === 'INPUT' || a.tagName === 'TEXTAREA' || a.tagName === 'SELECT' || a.isContentEditable); };
+    const keyboardUp = () => typing() || (window.visualViewport && visualViewport.height < innerHeight - 80);
+    function shortBy() {
+        if (!standalone || innerHeight <= innerWidth) return 0;
+        const d = Math.round(Math.max(screenH(), maxH) - innerHeight);
+        return d >= 4 && d <= 90 ? d : 0;
     }
-    fixViewport();
-    addEventListener('resize', fixViewport);
-    addEventListener('orientationchange', () => setTimeout(fixViewport, 300));
-    addEventListener('pageshow', fixViewport);
-    document.addEventListener('visibilitychange', () => { if (!document.hidden) setTimeout(fixViewport, 100); });
-    if (window.visualViewport) visualViewport.addEventListener('resize', fixViewport);
+    function heal() {
+        if (!standalone || keyboardUp()) return;
+        maxH = Math.max(maxH, innerHeight);
+        if (shortBy() > 0) {
+            const app = document.querySelector('.app');
+            if (app) {
+                const page = document.getElementById('page'); const y = page ? page.scrollTop : 0;
+                app.style.display = 'none'; void app.offsetHeight; app.style.display = '';
+                if (page) page.scrollTop = y;
+            }
+        }
+        maxH = Math.max(maxH, innerHeight);
+        const d = shortBy();
+        if (d > 0) root.setAttribute('data-vshort', '1'); else root.removeAttribute('data-vshort');
+    }
+    function fixViewport() { heal(); return shortBy(); }
+    function viewportInfo() {
+        return `Bildschirm ${screenH()} · Fenster ${innerHeight} · 100vh ${Math.round(document.getElementById('vh-probe')?.offsetHeight || 0)}`
+            + (standalone ? ' · Home-Bildschirm' : ' · Browser') + (root.hasAttribute('data-vshort') ? ' · gekürzt' : '');
+    }
+    let healTimer = 0;
+    const healSoon = (ms) => { clearTimeout(healTimer); healTimer = setTimeout(heal, ms); };
+    addEventListener('resize', () => healSoon(120));
+    addEventListener('orientationchange', () => healSoon(350));
+    addEventListener('pageshow', () => healSoon(60));
+    addEventListener('load', () => { healSoon(50); setTimeout(heal, 700); setTimeout(heal, 2000); });
+    document.addEventListener('focusout', () => healSoon(160));
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) healSoon(120); });
+    if (window.visualViewport) visualViewport.addEventListener('resize', () => healSoon(160));
 
     // ---- Gesten wie bei iOS: vom linken Rand zurückwischen, Sheets nach unten ziehen
     let gesturesReady = false;
@@ -322,5 +349,5 @@ window.gym = (function () {
         });
     }
     return { idbGet, idbSet, idbDel, loadBoth, persist, storageInfo, setWake, beep, shareFile, shareText, copyText, pickPhoto, getPhoto, openImage,
-        register, isStandalone, isIos, fixViewport, segPill, scrollTopSmooth, scrollTop, scrollBottom, getScroll, setScroll, setTheme, focus, blurActive, watchUpdates, applyUpdate };
+        register, isStandalone, isIos, fixViewport, viewportInfo, segPill, scrollTopSmooth, scrollTop, scrollBottom, getScroll, setScroll, setTheme, focus, blurActive, watchUpdates, applyUpdate };
 })();

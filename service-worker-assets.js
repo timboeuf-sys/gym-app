@@ -25,7 +25,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-9qEY+5nApRGw694aDztEjGdG7CgpL1ViEL1OJChUGRM=",
+      "hash": "sha256-jALNY2hRaqZIYQnNOjstU6A1RyTbRjjR2hGICXa3LpA=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -33,7 +33,7 @@
       "url": "_framework\/GymApp.Core.wasm"
     },
     {
-      "hash": "sha256-dx2MbSpB48ngB6X78bHf\/vt2iKIMQY2VfovMzqBS0Ok=",
+      "hash": "sha256-FhdgcMrpWzRlh6jZAmRZNZKI4o1dOTShcmq4zjmA01g=",
       "url": "_framework\/GymApp.Web.wasm"
     },
     {
@@ -149,7 +149,7 @@
       "url": "apple-touch-icon.png"
     },
     {
-      "hash": "sha256-4HqO0DBTxgGoHLfonKc9VmxfrOP5xYwvj0vpyOq+BtE=",
+      "hash": "sha256-ZlddwEXPHhb\/J3RvlSRghWb2M8HEJH6fxE128y1sbNk=",
       "url": "css\/app.css"
     },
     {
@@ -901,11 +901,11 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-KPfxGlmy8HjQPLCtKaxUlj8gfZkjwZCkYsml2gToEcM=",
+      "hash": "sha256-zBvP7YoUJPMxUTqaoYwA606LqyAqZzEmukzAIWzO2eA=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-H3usvu9IBc6GimJJNfRiYmN\/U1veni2mnOSsE3+snWg=",
+      "hash": "sha256-ashuxHjW6X202yimEWknSBWdPMpgf1CRwZ9rY4o5nJw=",
       "url": "js\/gym.js"
     },
     {
@@ -913,5 +913,5 @@
       "url": "manifest.webmanifest"
     }
   ],
-  "version": "uEOabV3Q"
+  "version": "7RgzE3GN"
 };
