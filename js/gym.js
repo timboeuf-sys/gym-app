@@ -163,7 +163,7 @@ window.gym = (function () {
 
     // ---- Sonstiges
     let dotnetRef = null;
-    function register(ref) { dotnetRef = ref; initGestures(); setTimeout(heal, 300); setTimeout(heal, 1500); }
+    function register(ref) { dotnetRef = ref; initGestures(); setTimeout(heal, 300); setTimeout(heal, 1500); if (updatePending) notifyUpdate(); }
 
     // ---- iOS-Fehler bei Home-Bildschirm-Apps (beide kosten genau die Höhe der Statusleiste):
     // 1. Kaltstart: mit height:100% bekommt die App zu wenig Höhe, darunter zeichnet WebKit nichts.
@@ -317,6 +317,38 @@ window.gym = (function () {
         pill.style.transform = `translateX(${on.offsetLeft}px)`;
         if (instant) { void pill.offsetWidth; pill.style.transition = ''; pill.dataset.ready = '1'; }
     }
+    // Diagramme: antippen oder waagrecht darüberwischen wählt Balken/Punkt (senkrecht scrollt weiter)
+    function chartScrub(el, ref, padL, plotW, vbW, count, mode, xs) {
+        if (!el) return;
+        el._cs = { ref, padL, plotW, vbW, count, mode, xs: xs || null };
+        if (el._csOn) return;
+        el._csOn = true;
+        let active = false, last = -1;
+        const index = (clientX) => {
+            const c = el._cs, r = el.getBoundingClientRect();
+            if (!r.width) return -1;
+            const x = (clientX - r.left) * c.vbW / r.width;
+            if (c.mode === 'line' && c.xs) {
+                let best = 0, bd = Infinity;
+                for (let i = 0; i < c.xs.length; i++) { const d = Math.abs(c.xs[i] - x); if (d < bd) { bd = d; best = i; } }
+                return best;
+            }
+            const i = Math.floor((x - c.padL) / (c.plotW / c.count));
+            return Math.max(0, Math.min(c.count - 1, i));
+        };
+        const pick = (clientX) => {
+            const i = index(clientX);
+            if (i < 0 || i === last) return;
+            last = i;
+            try { el._cs.ref.invokeMethod('Pick', i); } catch { el._cs.ref.invokeMethodAsync('Pick', i); }
+        };
+        el.addEventListener('pointerdown', e => { active = true; last = -1; pick(e.clientX); });
+        el.addEventListener('pointermove', e => { if (active) pick(e.clientX); });
+        const end = () => { active = false; };
+        el.addEventListener('pointerup', end);
+        el.addEventListener('pointercancel', end);
+        el.addEventListener('pointerleave', end);
+    }
     function scrollTopSmooth(id) { const el = document.getElementById(id); if (el) el.scrollTo({ top: 0, behavior: 'smooth' }); }
     function isStandalone() { return !!(window.navigator.standalone || window.matchMedia('(display-mode: standalone)').matches); }
     function isIos() { return /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); }
@@ -331,23 +363,45 @@ window.gym = (function () {
     }
     function focus(id) { const el = document.getElementById(id); if (el) { el.focus(); if (el.select) el.select(); } }
     function blurActive() { if (document.activeElement && document.activeElement.blur) document.activeElement.blur(); }
+    // ---- Updates: neue Version erkennen, sobald Internet da ist
+    let updatePending = false, swReg = null;
+    function notifyUpdate() {
+        if (!navigator.serviceWorker.controller) return;   // allererste Installation: nichts melden
+        updatePending = true;
+        if (dotnetRef) dotnetRef.invokeMethodAsync('OnUpdateReady').catch(() => { });
+    }
+    function checkUpdate() { if (swReg && navigator.onLine !== false) swReg.update().catch(() => { }); }
     function watchUpdates(reg) {
         if (!reg) return;
+        swReg = reg;
+        if (reg.waiting) notifyUpdate();
         reg.addEventListener('updatefound', () => {
             const nw = reg.installing;
             if (!nw) return;
-            nw.addEventListener('statechange', () => {
-                if (nw.state === 'installed' && navigator.serviceWorker.controller && dotnetRef)
-                    dotnetRef.invokeMethodAsync('OnUpdateReady').catch(() => { });
-            });
+            nw.addEventListener('statechange', () => { if (nw.state === 'installed') notifyUpdate(); });
         });
+        checkUpdate();
+        document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') checkUpdate(); });
+        window.addEventListener('online', checkUpdate);
+        setInterval(checkUpdate, 20 * 60 * 1000);
+    }
+    /// Merkt sich die zuletzt gestartete Version und gibt die vorige zurück ("" beim ersten Start).
+    function swapVersion(v) {
+        let old = '';
+        try { old = localStorage.getItem('gym-version') || ''; localStorage.setItem('gym-version', v); } catch { }
+        return old;
     }
     function applyUpdate() {
         navigator.serviceWorker.getRegistration().then(reg => {
-            if (reg && reg.waiting) reg.waiting.postMessage('skipWaiting');
-            setTimeout(() => location.reload(), 400);
+            const w = reg && reg.waiting;
+            if (!w) { location.reload(); return; }
+            let done = false;
+            const go = () => { if (!done) { done = true; location.reload(); } };
+            navigator.serviceWorker.addEventListener('controllerchange', go);
+            w.postMessage('skipWaiting');
+            setTimeout(go, 1500);
         });
     }
     return { idbGet, idbSet, idbDel, loadBoth, persist, storageInfo, setWake, beep, shareFile, shareText, copyText, pickPhoto, getPhoto, openImage,
-        register, isStandalone, isIos, fixViewport, viewportInfo, segPill, scrollTopSmooth, scrollTop, scrollBottom, getScroll, setScroll, setTheme, focus, blurActive, watchUpdates, applyUpdate };
+        register, isStandalone, isIos, fixViewport, viewportInfo, segPill, chartScrub, scrollTopSmooth, scrollTop, scrollBottom, getScroll, setScroll, setTheme, focus, blurActive, watchUpdates, applyUpdate, swapVersion, checkUpdate };
 })();

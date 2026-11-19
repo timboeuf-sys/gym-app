@@ -25,15 +25,15 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-jALNY2hRaqZIYQnNOjstU6A1RyTbRjjR2hGICXa3LpA=",
+      "hash": "sha256-EIFD6i3yOsjjX3vmk\/WxyeJXzGL4yONmJQfCVYkSKYI=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-yQKlX8yDUsHG34xFDUMNU9uTadfmikhxkrz24kRUM\/U=",
+      "hash": "sha256-kbmXzeEkGQ4Zrev6LUWs7RJ\/RGRrUHT8iwy7mWHA7eI=",
       "url": "_framework\/GymApp.Core.wasm"
     },
     {
-      "hash": "sha256-FhdgcMrpWzRlh6jZAmRZNZKI4o1dOTShcmq4zjmA01g=",
+      "hash": "sha256-DOo88hnio05W+rlTMmUkh+tDhsMls1TJ1V9h5FTLI\/U=",
       "url": "_framework\/GymApp.Web.wasm"
     },
     {
@@ -109,7 +109,7 @@
       "url": "_framework\/System.Console.wasm"
     },
     {
-      "hash": "sha256-O7HJDG7D8Woisv\/3Ag\/H59Ow47xvgZ8ehBK0USIm9yw=",
+      "hash": "sha256-LI3OBQbUzFpDE3U20uXxWWxM7GLSWjZyK9M2OCAkiSY=",
       "url": "_framework\/System.Linq.wasm"
     },
     {
@@ -117,7 +117,7 @@
       "url": "_framework\/System.Memory.wasm"
     },
     {
-      "hash": "sha256-c+32ehzNJZ14juLvU1wWkHFO37ytKpEJzlmJ1rn2QF8=",
+      "hash": "sha256-FHmvNATbF\/IN2+tLPFRd8cESOfDcUqXlrCtkL3pbmng=",
       "url": "_framework\/System.Private.CoreLib.wasm"
     },
     {
@@ -129,7 +129,7 @@
       "url": "_framework\/System.Runtime.InteropServices.JavaScript.wasm"
     },
     {
-      "hash": "sha256-hydZZhoFLtdUUEqwLpitO4yL7yaUVEjCTpxNPOEQW3A=",
+      "hash": "sha256-S3Jt16xoUrPZPbqoOj8sxkUxLVeMo86dDfWjL3gN13o=",
       "url": "_framework\/System.Runtime.wasm"
     },
     {
@@ -149,744 +149,1816 @@
       "url": "apple-touch-icon.png"
     },
     {
-      "hash": "sha256-ZlddwEXPHhb\/J3RvlSRghWb2M8HEJH6fxE128y1sbNk=",
+      "hash": "sha256-uV1lT1JH1CFznpXU9kgU3oWG7u8D0YWV4ZOmr2TF6XU=",
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-c660nchACgiYTszyOnHEc0hcTnpHsGav5BXXpZqC1UA=",
+      "hash": "sha256-JD0vhZZq3gOHdYuCQyNjfiQcx5sZNNvU6SDyGF6gwfM=",
+      "url": "ex\/b_21s_bicep_curl.svg"
+    },
+    {
+      "hash": "sha256-UFwmXKV7J9s9MCZ54\/uxmZu5xCywBcamD1oZUqET7QU=",
+      "url": "ex\/b_ab_scissors.svg"
+    },
+    {
+      "hash": "sha256-XBcamKBfME5j9edPJsKHMRWZlKdgWi4m0KUrV5ZW42s=",
       "url": "ex\/b_ab_wheel.svg"
     },
     {
-      "hash": "sha256-PTzrGXWlkfJF\/wk3GIU25QsVa31Cpth99JAiIKxKR7o=",
+      "hash": "sha256-V+cqVl8b6k6lEl4Cy5nq2+GGow\/7AVX0BoMTqZXUha8=",
+      "url": "ex\/b_aerobics.svg"
+    },
+    {
+      "hash": "sha256-dOBkCsMCYocZSVKizE2K2z6QRi2beyNmkLGXmfxtXFw=",
+      "url": "ex\/b_air_bike.svg"
+    },
+    {
+      "hash": "sha256-J880HkaGwMZl6wa4akg+JvBVtfG6EGftCo5wkWyvdYA=",
       "url": "ex\/b_arnold_press.svg"
     },
     {
-      "hash": "sha256-TGlRK8Ax2TjVny3srVqNqOonQpkZhq3sreq5V79GHKg=",
+      "hash": "sha256-BMM5EPQIiQ6oTr00xNVAcsdx503i2bylwM4wPkBZHVo=",
+      "url": "ex\/b_around_the_world.svg"
+    },
+    {
+      "hash": "sha256-J\/9suGnAmAbgYK0VQ0MVfMfLWnU0+moVVGQNzYan5Ok=",
+      "url": "ex\/b_assisted_pistol_squat.svg"
+    },
+    {
+      "hash": "sha256-cEY7RMTp1gvWBUxovq9QSEHK3WHTJ9V4ie6LfT9Lx68=",
+      "url": "ex\/b_back_extension_machine.svg"
+    },
+    {
+      "hash": "sha256-a\/KZ5zTiyfwPkZxbB6w178AW59thbB1FKy6H9MEkcL8=",
       "url": "ex\/b_back_extension_weighted.svg"
     },
     {
-      "hash": "sha256-nEClV09dNNZp8cwkCwR3OhvJtoz\/+hNaVu4e1eaTXzY=",
+      "hash": "sha256-+smv8HjXgUbWqib8FXqT0hv0sIRbMI\/vMq+0osWvGDE=",
       "url": "ex\/b_back_extension.svg"
     },
     {
-      "hash": "sha256-+NuwI0fj9x96wLh0DtHsK4U+BbeSq49d+5YFAcSwpiE=",
+      "hash": "sha256-hYZnDaKTGzf5iyBJz12b6dPvDl9x+sywhSfYbTJtu3g=",
+      "url": "ex\/b_ball_slams.svg"
+    },
+    {
+      "hash": "sha256-w3KVAnJA3ar5bNdJA6N5I6IoHUlnvYyq3915k4yUxWg=",
       "url": "ex\/b_band_pull_apart.svg"
     },
     {
-      "hash": "sha256-oh\/tilu8hCPAoqvrMCOsSuy+YZIp2uqHG0NOjN6LZQc=",
+      "hash": "sha256-21CNhi8bX\/ezlvU6nj9EmgQmUS9Ei1kDFBEi139wPZY=",
       "url": "ex\/b_battle_ropes.svg"
     },
     {
-      "hash": "sha256-6IXKTF5R31r3JyFv4vsaV\/skrs+6tuS0K6eSXn04IF4=",
+      "hash": "sha256-rmvw4qYZRcEVGXt+B0YR1qyPVcMSEcKThmTnD2taI7Q=",
+      "url": "ex\/b_bear_crawl.svg"
+    },
+    {
+      "hash": "sha256-huzwdO\/xQe85tuKkFMZ4Vuepk4DMHRdj5jScRs4gjRo=",
+      "url": "ex\/b_behind_the_back_bicep_wrist_curl_barbell.svg"
+    },
+    {
+      "hash": "sha256-+23PwGddsMyZZXaCxBpnvwaANBITNZZm0d3zHHX45wA=",
+      "url": "ex\/b_behind_the_back_curl_cable.svg"
+    },
+    {
+      "hash": "sha256-nNNQrDgvg1b3MeI0Q7lJSQT5DuB8spo+vfr7ABNtZnQ=",
+      "url": "ex\/b_belt_squat_machine.svg"
+    },
+    {
+      "hash": "sha256-zYqlsuxnDSF+GQd+wGCwEHQWYfGAbKDx4qRsn1rzta8=",
       "url": "ex\/b_bench_bb.svg"
     },
     {
-      "hash": "sha256-bjcdLK9nC0bro4xiDUPyOAVmVXe6792aJxZ1RIKNY0s=",
+      "hash": "sha256-f\/zuUjpJ8aCDCYTEhh2Ybm2hquYldEDp7HKjdExBNxM=",
       "url": "ex\/b_bench_db.svg"
     },
     {
-      "hash": "sha256-NGC\/14EzYpLiSqeBzqGS6f6nyIkyHjgu6bB+l5Y9HlQ=",
+      "hash": "sha256-BXX6q03NPAfEqTv0fDelHBZFW\/T9xIgYhxmD7govRMI=",
       "url": "ex\/b_bench_dip.svg"
     },
     {
-      "hash": "sha256-JTW3ocfGdJWmCnWUMBn104mFwqLcp05IbXXsiqzhEu0=",
+      "hash": "sha256-OZhtBh8WC9D7hrpi2O697iO3H+SxDXCn1x3fZr3gaWE=",
+      "url": "ex\/b_bench_press_cable.svg"
+    },
+    {
+      "hash": "sha256-\/YAgEyzMx5DLKeErDIyfKx5KQSkILQS\/KX2i529Avdc=",
+      "url": "ex\/b_bench_press_wide_grip_barbell.svg"
+    },
+    {
+      "hash": "sha256-hsQM\/ytpJn7LShlkTpo4Rwa+qcO\/rCHq36\/LBWqH0N0=",
       "url": "ex\/b_bench_smith.svg"
     },
     {
-      "hash": "sha256-cjJkEkAyjiMWsgJi2\/GFLY9ClqIRP9Bo6g1CqA3CbRI=",
+      "hash": "sha256-LWrmh62770U6wN0aVLj17wDAjP9m+6aBUqfCgb6Gr5k=",
+      "url": "ex\/b_bent_over_row_band.svg"
+    },
+    {
+      "hash": "sha256-BaoyOS\/PKLFnrmyyeI5kCnH58VxddZ+BiDbXTB8f47c=",
       "url": "ex\/b_bent_over_row_bb.svg"
     },
     {
-      "hash": "sha256-ToHeyef84x4wdr4lKGntEpF\/xPY0OydvC63wfXvPaFI=",
+      "hash": "sha256-myeLZa7ZGQ+ILqNYU7Ck6HiNxtSRaSs2aFAMNggc6KI=",
+      "url": "ex\/b_bent_over_row_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-7hrSHqakMXfshCI0SuqzLc+nt3B45w\/jffENzaSWgs8=",
+      "url": "ex\/b_bent_over_row_smith_machine.svg"
+    },
+    {
+      "hash": "sha256-ikVp2C+wLJT3Ao+G7ESxpPqHf3i0Jew8mTQllH40bzY=",
+      "url": "ex\/b_bicep_curl_suspension.svg"
+    },
+    {
+      "hash": "sha256-qlGvVVKgxbnttVY2BdVPOUD2kyv2MwlXAQ1y2X7btII=",
+      "url": "ex\/b_bicycle_crunch_raised_legs.svg"
+    },
+    {
+      "hash": "sha256-qlGvVVKgxbnttVY2BdVPOUD2kyv2MwlXAQ1y2X7btII=",
       "url": "ex\/b_bicycle_crunch.svg"
     },
     {
-      "hash": "sha256-pguISm7XkZF1iMzP84P6qG\/w41eVYScYwREQX5fupg4=",
+      "hash": "sha256-fzsFVZUCrXJ2xDsO1IZnSmIVoN\/AHTRcxJN2wCrm35E=",
       "url": "ex\/b_bike_stationary.svg"
     },
     {
-      "hash": "sha256-uj2L5naNhkgLLCHLmwJ1eiQ3jR7MV3jt2pGhNTmMs8c=",
+      "hash": "sha256-r89AK4s3bWak5xsLNlexc4DduAe7g11V4s\/SnjZO138=",
+      "url": "ex\/b_bird_dog.svg"
+    },
+    {
+      "hash": "sha256-ttE4cri1Z0RGwPO5UfDzVQfEbLh8A5uvYL\/c\/Wt2vms=",
       "url": "ex\/b_box_jump.svg"
     },
     {
-      "hash": "sha256-EmgTUW30j5e7NG3E7+6qvSNjp9ALGjWef0uFG8asORg=",
+      "hash": "sha256-Xl5wSIgK+jP+kNcmBBBttKac\/cFwAajgHKl7bSP+YVY=",
+      "url": "ex\/b_box_squat_barbell.svg"
+    },
+    {
+      "hash": "sha256-+nz8+J9+bH3itCRrMXH0JQzaXZeJ9eNoQ2U+mBMhBcw=",
+      "url": "ex\/b_bulgarian_split_squat_barbell.svg"
+    },
+    {
+      "hash": "sha256-hWXFAYdO0mr2eRe6acsju+ky1GowexEz8+IRSGl7w7M=",
       "url": "ex\/b_bulgarian_split_squat.svg"
     },
     {
-      "hash": "sha256-s3mAlNCsGtx\/SiMsL+vT0CnxNjMBAwDaqtdrMe85mgw=",
+      "hash": "sha256-nOCLP\/PssXSvf14rG4XyJ7X1hSfJ12YgPaNLuWh3MIw=",
+      "url": "ex\/b_burpee_broad_jump.svg"
+    },
+    {
+      "hash": "sha256-aCjSwBPhEi7J+zb1RNy2p7pEPZ2KQk8vKruzyUW3QqU=",
+      "url": "ex\/b_burpee_over_the_bar.svg"
+    },
+    {
+      "hash": "sha256-\/y5ItfuwGaTgA5Flalh924wv4RuC8x0t8RBv4hOmiVU=",
       "url": "ex\/b_burpee.svg"
     },
     {
-      "hash": "sha256-ZM1Ywln1VSSls2HCPDa3Ie0XTUfe43817Uw6DftbGco=",
+      "hash": "sha256-iuzDsoBb0HAHXVwe59bpJ0yvFDddNEQYxRY6q5GRuHo=",
       "url": "ex\/b_butterfly.svg"
     },
     {
-      "hash": "sha256-eGyZq\/qaKHsG\/APSMOwYL0E055Z4MABAxdEY3+X82Hc=",
+      "hash": "sha256-qE9RpjJzjGXqJAtZCrh\/WvL9tlqjBuGOB6o9n51SCLA=",
+      "url": "ex\/b_cable_core_palloff_press.svg"
+    },
+    {
+      "hash": "sha256-rGGrP+s5sA6zx8QHnzLQ4MLWrnvceNLLZCYGwi861iw=",
       "url": "ex\/b_cable_crossover.svg"
     },
     {
-      "hash": "sha256-oHlPJsRK4I7O4TNCE4M7+XXqMyipGJw5+LIkuDsr4KY=",
+      "hash": "sha256-zJtJ8\/g88nwkyDGRM8uAzNIG89ykzjLhBg\/TGJiGI88=",
       "url": "ex\/b_cable_crunch.svg"
     },
     {
-      "hash": "sha256-IhkvHGsy5wJ7l7wZtYgcTr9E45n5LDki2zEdupAsuEY=",
+      "hash": "sha256-hvipI020g7EiVK2TyGcktNfESCk\/I4oaT8hP31dqA0o=",
+      "url": "ex\/b_cable_twist_down_to_up.svg"
+    },
+    {
+      "hash": "sha256-gIwlFu82MMTVzAKGz1quN6WpSD2kF10sKYsQRAZ0dic=",
+      "url": "ex\/b_calf_extension_machine.svg"
+    },
+    {
+      "hash": "sha256-gIwlFu82MMTVzAKGz1quN6WpSD2kF10sKYsQRAZ0dic=",
       "url": "ex\/b_calf_press_leg_press.svg"
     },
     {
-      "hash": "sha256-gOJq8mhqPzcKs6x9GAp\/GQ46dK8O4t81gaOp37fRDpg=",
+      "hash": "sha256-BIJxE\/tPPCdP57wIMzCQj3L29yW9T0XfKQRZNevxKZw=",
       "url": "ex\/b_calf_raise_bw.svg"
     },
     {
-      "hash": "sha256-cEK7x7n63JX3ni9FvybeF2cvYUlsCKOlrCbUDw5oQrM=",
+      "hash": "sha256-7dQhwQwU9NtEwND2HysbsIFEowNZ+cB5DEuQ+P1q1EY=",
       "url": "ex\/b_calf_raise_db.svg"
     },
     {
-      "hash": "sha256-cBP+G96\/WY4g7sTp5fNxdwzic0nA1\/Gu48NPSUdMvpY=",
+      "hash": "sha256-9OWbdiJpiRGXsvexyWGTzWnCeXLU9if0MherbsqMo98=",
       "url": "ex\/b_calf_raise_seated.svg"
     },
     {
-      "hash": "sha256-MqRveBTbIbU1tuRsq7hYjmcB5E66UouTfqtWO\/nmYF4=",
+      "hash": "sha256-fPdmMxzSDtycnHq4EA3rOxmXLBmEMeZvu5ct2bXIBI8=",
       "url": "ex\/b_calf_raise_standing.svg"
     },
     {
-      "hash": "sha256-CqqeMtS9\/vaZMZiCIi9\/058NMN0wog9HijKiS2TyeE8=",
+      "hash": "sha256-MRjIWDx7mV7BlBeWTqjWSpd9hakU6fMS\/9GFHu3VXbE=",
       "url": "ex\/b_chest_dip.svg"
     },
     {
-      "hash": "sha256-+UQftSKwqop6ATjtdV\/x8bAw\/daPKLTaWcPuK5mwCoM=",
+      "hash": "sha256-RNVJJJy1H0CkfVJnq+pwHdqhitNp3J4MlV1AkZQ2wMI=",
+      "url": "ex\/b_chest_fly_band.svg"
+    },
+    {
+      "hash": "sha256-T6lm\/gjw77bOXGNA\/aZwmmcUEOXootykqzpk2yt7Rlo=",
+      "url": "ex\/b_chest_fly_machine.svg"
+    },
+    {
+      "hash": "sha256-DbWe7A63+T3FsiA5\/GNmvmw9BR4TD\/Sz4r\/xhnGcMhQ=",
+      "url": "ex\/b_chest_fly_suspension.svg"
+    },
+    {
+      "hash": "sha256-uo+OOfPiOSHTvugPHy+noxhp5Tfcn6xfjJCZYJEt9Cw=",
+      "url": "ex\/b_chest_press_band.svg"
+    },
+    {
+      "hash": "sha256-FjMZxBVlneTniaVM2jc\/2j8ygtn12yge4kR\/8AXsROc=",
       "url": "ex\/b_chest_press_machine.svg"
     },
     {
-      "hash": "sha256-UYkzodlo80n0HJX5oI5BUpYpkSXGjpK8Ih4RVyDep70=",
+      "hash": "sha256-0DcNa2vAjS2nMEN+3jywQbaxjaWL4bofDKZftEgtvec=",
+      "url": "ex\/b_chest_supported_reverse_fly_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-8qEEuyB+F1H1v0R5fOEtv6\/9VIjOjy59kJtUP1LzeEc=",
       "url": "ex\/b_chest_supported_row.svg"
     },
     {
-      "hash": "sha256-6XV\/ntZJsa9Y4RG5AoLxirYs\/1HKVg++V1X5LHHZUi8=",
+      "hash": "sha256-xhPn74RQ5l3UTFCeQRA0gahAebN82jGEFDiPknSxPL0=",
+      "url": "ex\/b_chest_supported_t_bar_row.svg"
+    },
+    {
+      "hash": "sha256-My9LF\/lif2PKdu894rEInzYZjtPYz46YYXJC5LfGVYg=",
+      "url": "ex\/b_chest_supported_y_raise_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-c9rjNGqvPlaF4r\/F3j\/j4Zn0hNIgQ7oECl7QaaWIgXk=",
+      "url": "ex\/b_chin_up_assisted.svg"
+    },
+    {
+      "hash": "sha256-RQizPLBh8sUHsXBLxm7SA+kv0ZePvWK+hFe9JP+n61Y=",
+      "url": "ex\/b_chin_up_weighted.svg"
+    },
+    {
+      "hash": "sha256-XUPAYNBNGoy3q5AGES9M8ySy8QBSrSkiMvoshE68fvQ=",
       "url": "ex\/b_chin_up.svg"
     },
     {
-      "hash": "sha256-3eR7rT8ZGyriUKA6NOtO+ypHjpaWp8UAZW9WLBfdRG0=",
+      "hash": "sha256-Brj7JVS5v+PhevRpnXNeUySbEyX2QiMTjz6+LhU\/r10=",
+      "url": "ex\/b_clamshell.svg"
+    },
+    {
+      "hash": "sha256-wnv9jq+PD6Oa2h4kkTH1tTq+0rwO77\/734OT1BU3whk=",
+      "url": "ex\/b_clap_push_up.svg"
+    },
+    {
+      "hash": "sha256-8Mjc72Sy8X4mTg0RkzmCcokId49T1LNHCpZzVyhLzmg=",
       "url": "ex\/b_clean_and_jerk.svg"
     },
     {
-      "hash": "sha256-xUkmxxFgHhfILXDY0SUyZ\/ios0\/P1eUBOWW2HO4LJeQ=",
+      "hash": "sha256-vkmf4NlB42Ii6ybbSv\/nkt++beRAK6HSEj04PouKBsc=",
+      "url": "ex\/b_clean_and_press.svg"
+    },
+    {
+      "hash": "sha256-PVaIvIY6Kjl8pgYkkJbq7Gus26bV6pV5En1nbu+Nh5A=",
+      "url": "ex\/b_clean_pull.svg"
+    },
+    {
+      "hash": "sha256-ycEelpUQSS5zokNCqB3seQLwUxIEPjkngSR2pDYNSn4=",
+      "url": "ex\/b_clean.svg"
+    },
+    {
+      "hash": "sha256-RXJ5Rtu2LP+errhXX4i6qOd1hhza2UEKFVf8KFohlIQ=",
+      "url": "ex\/b_climbing.svg"
+    },
+    {
+      "hash": "sha256-0eg3N5tDWULITsp6PwQH\/u+OeaStnzYogrkiABczAco=",
       "url": "ex\/b_close_grip_bench.svg"
     },
     {
-      "hash": "sha256-bwO+hwaDk4ulUiprALqQDMKjiTmGOP1OvL2Ywl0fQ8Y=",
+      "hash": "sha256-UpQo0arx0NmVwv7SFymR+tVGeKfpQ4LEgMzGkYGX6Z8=",
       "url": "ex\/b_concentration_curl.svg"
     },
     {
-      "hash": "sha256-xTAXwywZZOC1v5\/fyCaXnG7NVMZKf3+qK50GtCno2dc=",
+      "hash": "sha256-iUFyDmHsXyySs9bRvJ\/DTvDtqAgM6wh+Sx76arDFgDE=",
+      "url": "ex\/b_cross_body_hammer_curl.svg"
+    },
+    {
+      "hash": "sha256-GpNBi2DltUMp95+JBlQFlbe1jEGvV5IQa0pgJdFzeQw=",
       "url": "ex\/b_crunch_machine.svg"
     },
     {
-      "hash": "sha256-eSX8D+w\/JOrr5Wt4FDNrdpvp8SbM7FgYM0tq0kNci6k=",
+      "hash": "sha256-CfPBsuyvzqZIbOWkRsGAU4\/MLuKrv+eo9LjQVYMW2IU=",
+      "url": "ex\/b_crunch_weighted.svg"
+    },
+    {
+      "hash": "sha256-J6JrEZr3RXU\/MJrBhHRcLEwkaE1im8bbQYDqgLVW178=",
       "url": "ex\/b_crunch.svg"
     },
     {
-      "hash": "sha256-XPn9C1XpTLy9ptWlirUBc5rzKUxna7I23NMuFXlUOEg=",
+      "hash": "sha256-JD0vhZZq3gOHdYuCQyNjfiQcx5sZNNvU6SDyGF6gwfM=",
       "url": "ex\/b_curl_bb.svg"
     },
     {
-      "hash": "sha256-AeP4hQ4h9hbStNlm4kcJAGfTA+awwKKFwE1DnxcBv6M=",
+      "hash": "sha256-3CroSa\/+2pSy3rXIQrRxwnGnfss4COPeTJBNHeJ3viY=",
       "url": "ex\/b_curl_cable.svg"
     },
     {
-      "hash": "sha256-0GA6TyJ\/uQ\/YHICj4oBYKWZy\/alFNt0X0YmWbG9B6dE=",
+      "hash": "sha256-jaZmruM53qNeyPyZ3PtNDdP7cOq84fjfRi7UcDR1Kgc=",
       "url": "ex\/b_curl_db.svg"
     },
     {
-      "hash": "sha256-uNRtW6xiJsPGi4rRfW+5aLqbZyKCaQVn1knEZyz6zwQ=",
+      "hash": "sha256-n8cn6V+URiZQxHgQb4R4NyJeaO70ZvCLj\/X4xFsjLdc=",
       "url": "ex\/b_curl_ez.svg"
     },
     {
-      "hash": "sha256-GBTeWa\/V6goELYKPKqCImFyCJZ6s6fFBGPDp1UYJBGE=",
+      "hash": "sha256-gr9Gbt9E3FE5Gq48tvgiq5NBy2l7omh2wf8WwRy7ZmU=",
       "url": "ex\/b_curl_machine.svg"
     },
     {
-      "hash": "sha256-e5PHwyHrmjvvCXDNKPfMfGJP7xRKIY3ocjuRBhahJk4=",
+      "hash": "sha256-QbalCQFMWzmPEc+ENNGwVAzs+5JTAeG8bvXbP8ohiiU=",
+      "url": "ex\/b_curtsy_lunge_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-XVmLsNUtq2Gxirr4K9rXlRXkc\/PfZG0CSJKyPD4oRtA=",
       "url": "ex\/b_cycling.svg"
     },
     {
-      "hash": "sha256-ND\/Hj7mmvX8bznlovjra5t\/omDiDVXTUKgrl1hQkHzo=",
+      "hash": "sha256-Bmh8Ri\/ckFhH2\/GfGxQiZ9uk75LI5zMjMRHGPuksIaw=",
       "url": "ex\/b_db_row.svg"
     },
     {
-      "hash": "sha256-c0eK6un2dJT91h0QPoOy3t8nRG0P8AFFa1XEnxQ9lrI=",
+      "hash": "sha256-b8gqC7wPhfBpZe5gOKQOwdgncVOVvBFujQJ6LrTkzf0=",
       "url": "ex\/b_dead_bug.svg"
     },
     {
-      "hash": "sha256-eb40DbxcPZZBFK2aSaFUYKg+O3c1jSsMkRJHiXePXgw=",
+      "hash": "sha256-bKbs1+hojWDOkESQsQgZoxFLSrhO0bKYbNCAzE68AZU=",
       "url": "ex\/b_dead_hang.svg"
     },
     {
-      "hash": "sha256-w3ZSgtanRQXInW6p1YyRrNx88Uze7xPU4LzwvuKslpo=",
+      "hash": "sha256-SzD7ZVzclub\/3DBeXp9jL6CTNkfBfuZRk0sbT1zkwqg=",
       "url": "ex\/b_deadlift_bb.svg"
     },
     {
-      "hash": "sha256-rPNl9PhvRdo7WaqQ6Dl4Kf9DP7A6dIa5GzdgPCPLG7k=",
+      "hash": "sha256-7BnNwesuccIQY5MHJ19fVt4n7lpF3sKmTfpPXmD0n2w=",
+      "url": "ex\/b_deadlift_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-ie82WAl3vm66fADHMLacfJH9IpETO7XUl0iThM\/mUgs=",
+      "url": "ex\/b_deadlift_high_pull.svg"
+    },
+    {
+      "hash": "sha256-Yw+h2brCuVLIQZIeN3yq6ubipLbRNyMssPIAz9zvCIY=",
+      "url": "ex\/b_deadlift_smith_machine.svg"
+    },
+    {
+      "hash": "sha256-YIAxnFmyVAQnFxO6HrSnk9WfbZqFy0TJo+kYOucrv5k=",
       "url": "ex\/b_decline_bench_bb.svg"
     },
     {
-      "hash": "sha256-AecwSDSL8gfp7043fHYwLS6K8dNX9HrJg75MCQvVgrI=",
+      "hash": "sha256-9Pj39JefFnNLo4cozx\/bmH3DK5vy\/3bwbWPXq2pmuds=",
+      "url": "ex\/b_decline_bench_press_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-9l9ZpHHc2B464XY6Fivfv0vzop\/c3yj0u5hOMxqi37Y=",
+      "url": "ex\/b_decline_bench_press_machine.svg"
+    },
+    {
+      "hash": "sha256-TMyoQ7DjcKS6rNXBeSjopEpwpsBSiJZQxH175wMpmB0=",
+      "url": "ex\/b_decline_bench_press_smith_machine.svg"
+    },
+    {
+      "hash": "sha256-XBjY7liSg\/hIexqEZ6Oqk14LRGNpJVrZGM101GgQPrc=",
+      "url": "ex\/b_decline_chest_fly_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-s9oqMH7DhTS4weqS6SRyGze2cwO+WnO3ubMgGC4lgZI=",
+      "url": "ex\/b_decline_crunch_weighted.svg"
+    },
+    {
+      "hash": "sha256-AUSgA9zdyMnvot7BWms4iOPn1uJN8H8UUwPTUCAGSlA=",
       "url": "ex\/b_decline_push_up.svg"
     },
     {
-      "hash": "sha256-6v4o97mjyMkv7LWE3D8KlOHr\/dtqPPMeO4DZLB9RrQk=",
+      "hash": "sha256-FygXONAbg4fXDApxEWP0I07DBRV6uyTWvhn9TZQRhus=",
       "url": "ex\/b_decline_sit_up.svg"
     },
     {
-      "hash": "sha256-ZGZuc5FYZR3TDF8O0X0ySJT03CwdFuj0\/FGWkSxD+Dg=",
+      "hash": "sha256-GaI2wqQ2Nirj27zpKBKti8pthIEG93Y0LeEbnpAncVI=",
       "url": "ex\/b_diamond_push_up.svg"
     },
     {
-      "hash": "sha256-BVJ2XwjkohoCPEvL92jg8I2AuIE9M830gsw+G8dtSrY=",
+      "hash": "sha256-1B00byyNBy+lbwYsxA9W7z9k1lSb7qbUilIXAFyn6KE=",
       "url": "ex\/b_dip_assisted.svg"
     },
     {
-      "hash": "sha256-KpwWVk4GoCuIe2AbtBmm7anaF+DE8kTomQPjKh9yo3M=",
+      "hash": "sha256-3ILuVvOJZKsNAKAqTdP+ZAwghKDagmcwe4qNj9grbt0=",
       "url": "ex\/b_dip_weighted.svg"
     },
     {
-      "hash": "sha256-W4Bk2DUj5ny3rtqYjwxcOnLZj7gJ7quTU2LtjJoMimY=",
+      "hash": "sha256-qHbiAY5KhZlJdBb8UY3E96YWP+eN4NzO2H6zI3j3ciU=",
+      "url": "ex\/b_downward_dog.svg"
+    },
+    {
+      "hash": "sha256-93ieCbquJ0cf6NVOmNys1OtUxHfcuzglgzfkU11\/yzo=",
+      "url": "ex\/b_drag_curl.svg"
+    },
+    {
+      "hash": "sha256-zUpvQmxdWhgWRUkkv0kEa9Ut9bIVbkrg8Snwv4hwkvI=",
+      "url": "ex\/b_dragon_flag.svg"
+    },
+    {
+      "hash": "sha256-zUpvQmxdWhgWRUkkv0kEa9Ut9bIVbkrg8Snwv4hwkvI=",
+      "url": "ex\/b_dragonfly.svg"
+    },
+    {
+      "hash": "sha256-fqzFawC2ew7DZYYcgmclWvTtQwpLvIlpCyLLXZ2ScQk=",
+      "url": "ex\/b_dumbbell_snatch.svg"
+    },
+    {
+      "hash": "sha256-Qm\/lrE8ScRllea3XrK7gPU\/lsefJGZkWTvpKnqtzxhw=",
+      "url": "ex\/b_dumbbell_squeeze_press.svg"
+    },
+    {
+      "hash": "sha256-qlGvVVKgxbnttVY2BdVPOUD2kyv2MwlXAQ1y2X7btII=",
+      "url": "ex\/b_elbow_to_knee.svg"
+    },
+    {
+      "hash": "sha256-JufPeLEfQx1cbTyspIuzpBSPFzs3JUDjetqpU4oAOXU=",
       "url": "ex\/b_elliptical.svg"
     },
     {
-      "hash": "sha256-dC6IPKqev4PjginKERpk+dR0bGa8lsAp66ljoDcbXqI=",
+      "hash": "sha256-gFOCoTIoXNvedp7VJ9QMeP5IwW7hJszf5zI+RVUdPVc=",
       "url": "ex\/b_face_pull.svg"
     },
     {
-      "hash": "sha256-YMaMHAYFq\/qjhMiFvyuZojB2k1nkJLbOnWJ5v8QCW34=",
+      "hash": "sha256-OQg2BIDClD+q17F+YrLhYax3Bk277NP\/lTk+8ZPTcUU=",
       "url": "ex\/b_farmers_walk.svg"
     },
     {
-      "hash": "sha256-CMT2vbfDlTBTvwGUUG\/VJarKQ0vHfDO6\/ZK8hdhgnaI=",
+      "hash": "sha256-5GVyFVSb1w90qFqaUXnTmG3Vq1tqujBqtseoxB5ATwU=",
+      "url": "ex\/b_feet_up_bench_press_barbell.svg"
+    },
+    {
+      "hash": "sha256-MVmagp4twF04G1cQFtAWyemdDBwN\/KA39I3YXMis\/3w=",
+      "url": "ex\/b_fire_hydrants.svg"
+    },
+    {
+      "hash": "sha256-skF8AvRj\/GOCzJfsYybyaC\/0CTpkXcCB9if0zAjLiP4=",
+      "url": "ex\/b_floor_press_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-9Ead1r7TmRldmmFBduR8JFGTmLFr52KOYEqgOKIyq0U=",
       "url": "ex\/b_floor_press.svg"
     },
     {
-      "hash": "sha256-pZ5SH38vUKsidROe9bWPOrb3MQ2CQV7NZWRE8JtpCM4=",
+      "hash": "sha256-4TQRusqT4FXCvaNmQFiAjO5bzx419BletSGQ9M+6UNw=",
+      "url": "ex\/b_floor_triceps_dip.svg"
+    },
+    {
+      "hash": "sha256-UFwmXKV7J9s9MCZ54\/uxmZu5xCywBcamD1oZUqET7QU=",
+      "url": "ex\/b_flutter_kicks.svg"
+    },
+    {
+      "hash": "sha256-b77TEqPqp0tuSy\/u13XhRFSlZ1vSrjj5s1\/nomdV2aU=",
       "url": "ex\/b_fly_db.svg"
     },
     {
-      "hash": "sha256-soCz8IlUtsmmJ\/fL2APQpYovC5kuNOV01c85V9q5jR8=",
+      "hash": "sha256-yJHVPuVyl4XUFuT2L0A82jeXViz4Rx2HKgONKjMq1iA=",
+      "url": "ex\/b_frog_jumps.svg"
+    },
+    {
+      "hash": "sha256-dtvdV+A2kxO89XCKgb\/3nPxlE8rVZwgOBySh5HH0ba0=",
+      "url": "ex\/b_frog_pumps_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-twCJpIMAKcAhlsCHe2oDWHA+mSwjbFw+5YzKmDNMVvE=",
+      "url": "ex\/b_front_lever_hold.svg"
+    },
+    {
+      "hash": "sha256-E\/wl+exbh3op4HgR94tg5+M4phXDdMOymroCNeW0F7c=",
+      "url": "ex\/b_front_lever_raise.svg"
+    },
+    {
+      "hash": "sha256-Ibu7d36+c6QrGwQHvPs0RomBfHyqzIGRlzJ\/QxXlz3g=",
+      "url": "ex\/b_front_raise_band.svg"
+    },
+    {
+      "hash": "sha256-REBjcnHdN+wR0CR26bIjJ53m6kWstMLsX5elLeranfI=",
+      "url": "ex\/b_front_raise_barbell.svg"
+    },
+    {
+      "hash": "sha256-zBH0aFV\/LkI6KhVwGQjbQNSV0uvr91WSpQhPtwFoGaA=",
+      "url": "ex\/b_front_raise_cable.svg"
+    },
+    {
+      "hash": "sha256-MSoHeRnU40knu5md4VnSyt3ThCnA6rSzmE+iCnGm7qI=",
       "url": "ex\/b_front_raise_db.svg"
     },
     {
-      "hash": "sha256-Blov9CnO8HtL5aPbnn\/SFwyierzH5CrcscuAv0WVNAU=",
+      "hash": "sha256-blYZ4r0T91wGkLzTUcbYr90MVOaCBKOCKIEp62kOGIs=",
       "url": "ex\/b_front_raise_plate.svg"
     },
     {
-      "hash": "sha256-Trdt1E6vl3Js8x09m1kMnjf+TVBX+xC5s7+KNeEZ3Y0=",
+      "hash": "sha256-4ePcm0qORiM8TI88an\/vif8s1Ay\/EuWnAfSZOmFoLoc=",
+      "url": "ex\/b_front_raise_suspension.svg"
+    },
+    {
+      "hash": "sha256-kBYBo+0nH275Cz3FojVacXHb2pKCMWDLYhV5GAi7pmk=",
       "url": "ex\/b_front_squat.svg"
     },
     {
-      "hash": "sha256-\/I7t8ZOnO2eepPzrxwqhHQSuqLDSlNWQmtNaS\/psk4A=",
+      "hash": "sha256-1ydx7pCTpuJ+hjOq4ExoDHarEvxo1aJzgJsGsmGipls=",
+      "url": "ex\/b_full_squat.svg"
+    },
+    {
+      "hash": "sha256-HqdEYQqib8LeWVzmlNgoUa0x12abVmTJu2zJWoui7d8=",
+      "url": "ex\/b_glute_bridge_barbell.svg"
+    },
+    {
+      "hash": "sha256-vTZSQ7cOSd\/PqZyXgZOUouyQnT9AxDEPfXC5wlkmYqg=",
       "url": "ex\/b_glute_bridge.svg"
     },
     {
-      "hash": "sha256-wwI6DQo56Rr03qOE0zBFx3hSGTw1ujn7utU9iTB6LRM=",
+      "hash": "sha256-21Lhig0gAyoBTW247Y1hvygbdluOh3MrNTNxJFeFrUM=",
+      "url": "ex\/b_glute_ham_raise.svg"
+    },
+    {
+      "hash": "sha256-ETWynR2wdC+i8wPtcp0i3eRYggskxcshF\/rEVNpfYg0=",
       "url": "ex\/b_glute_kickback_cable.svg"
     },
     {
-      "hash": "sha256-E\/M+5Qm7Iq61+RGVud2eToRln40UfIm1rdUYYp76urE=",
+      "hash": "sha256-AbXL\/jPaYVoe9ggoJ8Xy8hR4\/L4MzDR6Wyeh2cW9f3k=",
       "url": "ex\/b_glute_kickback_machine.svg"
     },
     {
-      "hash": "sha256-AUOpYCEFBeKeH63CQ4865liDSV6pRKsXeykGRCNbXng=",
+      "hash": "sha256-8HxymkB34CjPe+qERFze1hdkS\/mKVxsknyATByX8zNY=",
+      "url": "ex\/b_glute_kickback_on_floor.svg"
+    },
+    {
+      "hash": "sha256-NkJc8tdi4I7orE8pIPCy1oOrg+fNm9Yk2YI+QqgQQi0=",
       "url": "ex\/b_goblet_squat.svg"
     },
     {
-      "hash": "sha256-gv7AO5PQtXSATKiKV31P9VWMuGvh77Q\/KaN+kf4tTXc=",
+      "hash": "sha256-6ZXbuxDTjfXRpHIv+pnhRvS3tMXz7aXO\/QB1Dh28aWw=",
       "url": "ex\/b_good_morning.svg"
     },
     {
-      "hash": "sha256-SwoARaYvc0M\/l3LxjGagN1+7697F1\/KXdXISdoOtXto=",
+      "hash": "sha256-hxs4wx97VkcVy3jsJRh9Xs3vRA\/CuTUcgx79NYfQAs4=",
+      "url": "ex\/b_gorilla_row_kettlebell.svg"
+    },
+    {
+      "hash": "sha256-tPpr5vf2ro4ugAM1usGuDPqicmYaO20CxF7u+r5fQCU=",
+      "url": "ex\/b_hack_squat_2.svg"
+    },
+    {
+      "hash": "sha256-F1bBH\/IydJWkuBE7zQ6tb\/SAe9EFwJtA8cpPIrsX9o8=",
       "url": "ex\/b_hack_squat.svg"
     },
     {
-      "hash": "sha256-lzwpNohDVqqKLC7d6pRxDP8BSROpEc69YnQsQc7fBRQ=",
+      "hash": "sha256-mNYEkGtl+W5gpvZUbzzwCwlTwwrhepow2\/WYTBaHqpY=",
+      "url": "ex\/b_hammer_curl_band.svg"
+    },
+    {
+      "hash": "sha256-QUCbtShgLnRXprnLxqwIo0jT37SFkGzRKu8WMkixu9s=",
       "url": "ex\/b_hammer_curl.svg"
     },
     {
-      "hash": "sha256-ztS1b\/Ww\/q0JNKh+L3dlhCwAVTOeHt2oxboWBxalt2Y=",
+      "hash": "sha256-uY7gzWgwAdrpY7h37mshl4YHzZTvyWoassiSl0ytXHg=",
+      "url": "ex\/b_handstand_hold.svg"
+    },
+    {
+      "hash": "sha256-vLHufEQdfYI4PRhi7U\/2RZ3\/m1oLuP120ODmCpgrm7g=",
       "url": "ex\/b_handstand_push_up.svg"
     },
     {
-      "hash": "sha256-LM0SthRKEX1hJvN3XpwXariEVwHyoSUOLiyBCaa\/x6s=",
+      "hash": "sha256-cfes2JW\/yVWGcQ4LF9FDE0AMl25W3tKIrseb4UeeuBs=",
+      "url": "ex\/b_hang_clean.svg"
+    },
+    {
+      "hash": "sha256-6okG3gRtr+szuHidT\/1zFYkLoZZLzhDxpTZ9u1I6JKE=",
+      "url": "ex\/b_hang_snatch.svg"
+    },
+    {
+      "hash": "sha256-99V37oCfNQjfRSqvueRxuNPyp0YS4DbntzjZoaQEM0w=",
       "url": "ex\/b_hanging_knee_raise.svg"
     },
     {
-      "hash": "sha256-Yb3yi5JmNiMeB+J9Fz87YOpdymulVGOGg1CPSiTk5Z8=",
+      "hash": "sha256-8qXkKW6+MQJoP+XrwUlJBwCvrX4uGQbILqVH+2O4gZA=",
       "url": "ex\/b_hanging_leg_raise.svg"
     },
     {
-      "hash": "sha256-93d4wJxv\/x4rq1xFxferIgkxaPSrfhxQ0nGgAkl\/mro=",
+      "hash": "sha256-FvInat0lbQRTdYeCCzOWiUpscgnlg76jubjvNPWLqZk=",
+      "url": "ex\/b_heel_taps.svg"
+    },
+    {
+      "hash": "sha256-+gIB4zhS5grla4C5mr3uLQgweN\/U0gGWqXIO0SRm8HU=",
+      "url": "ex\/b_hex_press_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-woOntz9tgXMipyoHzBqB64IzNe7PLOXIG9MOWXsoo\/0=",
+      "url": "ex\/b_high_knee_skips.svg"
+    },
+    {
+      "hash": "sha256-woOntz9tgXMipyoHzBqB64IzNe7PLOXIG9MOWXsoo\/0=",
+      "url": "ex\/b_high_knees.svg"
+    },
+    {
+      "hash": "sha256-hNu+FmbMJvxVFK7w8fgDNhYlVmniGNF9Cv9NEI+PIMY=",
+      "url": "ex\/b_hiit.svg"
+    },
+    {
+      "hash": "sha256-3HbQxaDmVpl8fGAli33ce1T+bdmNkWS2tzdjnyPWE8g=",
       "url": "ex\/b_hiking.svg"
     },
     {
-      "hash": "sha256-rKa+vhWlPI2RF\/TKIcVHro+IRdxM1S5cOFiBNvdtFU4=",
+      "hash": "sha256-DEPB9WKIn\/UGAAnT1aDVnI3IgurduS18cYUuoFB78CU=",
+      "url": "ex\/b_hip_abduction_cable.svg"
+    },
+    {
+      "hash": "sha256-xdA2GzCdTZGKAYBZK7z+YD2Z3nd1XLo3EuTmSX1KM18=",
       "url": "ex\/b_hip_abduction.svg"
     },
     {
-      "hash": "sha256-zToPCg4RQ2BqsE0eO5iJ3miURtePKfkeoXQ0P8+rah4=",
+      "hash": "sha256-4Jix846AU1XBQhdJIkBWKEzV1StSAdCtc3JLTsbBh0k=",
+      "url": "ex\/b_hip_adduction_cable.svg"
+    },
+    {
+      "hash": "sha256-V3FUU8pGEiLzd76LQp2j+dThgGxAKaTRdubLDWS5JXk=",
       "url": "ex\/b_hip_adduction.svg"
     },
     {
-      "hash": "sha256-4ILdmOZBxHB6aMTru0fretPAXM+5fcrejzhIzEB7wRQ=",
+      "hash": "sha256-dhvid2XvgMPJlJVpyP0DFu4PcyteRLEIbmXdSdbHc24=",
       "url": "ex\/b_hip_thrust_bb.svg"
     },
     {
-      "hash": "sha256-MoFhs+Cwz7G4OChl3nC1CCmb88bC3hL0tBrWu9JiDzw=",
+      "hash": "sha256-g\/CAUAWWQkbk7gfbTpks7K701lnj3DS+ml6ayKz7zG0=",
+      "url": "ex\/b_hip_thrust_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-9aExf+ohIpn7tNCgb1Y0VNVd2S74hk4QBOZtbKFsCfE=",
       "url": "ex\/b_hip_thrust_machine.svg"
     },
     {
-      "hash": "sha256-wpGPjLh1Tk\/VXZlLuIPR63WtK7SK6rBjwy8OD3WZcCQ=",
+      "hash": "sha256-3CSbG3waFV2SGqe\/yYn8x1zrIbFPz9\/QyDkRhKR75QY=",
+      "url": "ex\/b_hip_thrust_smith_machine.svg"
+    },
+    {
+      "hash": "sha256-tjiSepqc1SdogC+LugWoZqPI3jky9X7GtrvuHCzgUhs=",
+      "url": "ex\/b_hip_thrust.svg"
+    },
+    {
+      "hash": "sha256-Ssa4MsNeZfYybMuMT7GAsjL5\/H6xZ4qleVoM2qZue9A=",
       "url": "ex\/b_hollow_hold.svg"
     },
     {
-      "hash": "sha256-CN9Bz46DlZAZivrZ7ujNv5+Nh5BQiKLOd1CL3VLxHlY=",
+      "hash": "sha256-WqHRxNnheRUE+ejsz\/Hc4ix4x2plk1OfL6AU8UrLQVs=",
       "url": "ex\/b_incline_bench_bb.svg"
     },
     {
-      "hash": "sha256-4Iu4N9QFitebsKqZDRrb9ZfTuws16dVRd8g9e\/hs8jo=",
+      "hash": "sha256-HIjf\/lpgN3hetMpurmszUm2ScioWcSDKwzE8L9QjFvg=",
       "url": "ex\/b_incline_bench_db.svg"
     },
     {
-      "hash": "sha256-LLp0k+XGoPBqO32F5tuwaIMCF\/9XNQ5K0xH8E25eB68=",
+      "hash": "sha256-PrzTA0CrW4UAcgi0bD89qg7qpvupUJMSNcY31I8Chow=",
+      "url": "ex\/b_incline_bench_press_smith_machine.svg"
+    },
+    {
+      "hash": "sha256-iXhW64vKTJNI9mJm7LA3Hn6sDoHN4HhvNQmBxEqIJBM=",
       "url": "ex\/b_incline_chest_press_machine.svg"
     },
     {
-      "hash": "sha256-KgEApvGmciZYYjdHmYUjCy\/bhpNnDmtj9tlV+8x4W+c=",
+      "hash": "sha256-Dw4F3t3SLT8iq5P+WkarcNpJhnELbx0G+YqcYY1aYX4=",
       "url": "ex\/b_incline_curl.svg"
     },
     {
-      "hash": "sha256-IuxpgsntmZFoBfoXUAT2AT8oHUlYOerqvkd10N64Qw8=",
+      "hash": "sha256-0BkJ6cl24Lhx2+fLEgZYWQ0DTseqbBKn2VsmGxMUAxE=",
       "url": "ex\/b_incline_fly_db.svg"
     },
     {
-      "hash": "sha256-aO\/37xxC1\/JExqqZMNe9yWqPEfGZm8GZ4QQbNuk0gP8=",
+      "hash": "sha256-Ihd1N86De7IzyJcYpqRbHQssP8OYtzHY5cN8s76oYH0=",
       "url": "ex\/b_incline_push_up.svg"
     },
     {
-      "hash": "sha256-T6zEekZZFgqoTiq6B8QLRM1kFHHew5ne3N5LHnPiHmE=",
+      "hash": "sha256-4EU8kNTbBy+L0fM2PuTR8PQhIWqMHAS70zns1VjIEMI=",
       "url": "ex\/b_inverted_row.svg"
     },
     {
-      "hash": "sha256-zlo5qHrtzyOgQ\/BW1vniQOo1YN+YJVw4Mf6yHYQR0KE=",
+      "hash": "sha256-FjMZxBVlneTniaVM2jc\/2j8ygtn12yge4kR\/8AXsROc=",
+      "url": "ex\/b_iso_lateral_chest_press_machine.svg"
+    },
+    {
+      "hash": "sha256-e+sZupWr5+JXjwvM4MFMIQkuCRJ+ly5SK1UvmwEuWY4=",
+      "url": "ex\/b_iso_lateral_high_row_machine.svg"
+    },
+    {
+      "hash": "sha256-le0lReQkx9SmwC6TAD9MS2u0xFQXTKBuXmu4V7evtwI=",
+      "url": "ex\/b_iso_lateral_low_row.svg"
+    },
+    {
+      "hash": "sha256-le0lReQkx9SmwC6TAD9MS2u0xFQXTKBuXmu4V7evtwI=",
       "url": "ex\/b_iso_row_machine.svg"
     },
     {
-      "hash": "sha256-OENbJ0uDMtTcU7CtTShZpxShzKZd24bvdUsHdLZLlzM=",
+      "hash": "sha256-26ZUN6RM2Mon5mQODj3J2uNyTj7OCn5506Uk0\/9MXKI=",
+      "url": "ex\/b_jack_knife_suspension.svg"
+    },
+    {
+      "hash": "sha256-QkmlpZipQC2\/E92d9w8EC\/BAE4apvfrEXac5rfca\/F0=",
+      "url": "ex\/b_jackknife_sit_up.svg"
+    },
+    {
+      "hash": "sha256-zexdz5h0myqS6MFLvhJXhKR14FkHeO0mZ3+K\/oeJ1w8=",
+      "url": "ex\/b_jm_press_barbell.svg"
+    },
+    {
+      "hash": "sha256-QLHtEcnDOVw9f8akbkOaYaPoDE4+FqA0a4uj8xynOJc=",
       "url": "ex\/b_jump_rope.svg"
     },
     {
-      "hash": "sha256-SNTQdfuMwO71EF0f0Zv1\/4Ia1MLaheLF3sad6z+ZB\/c=",
+      "hash": "sha256-gQm28sLGPzz5J13B9wvYlblIjAIoMdhn87aKdFcAOEg=",
+      "url": "ex\/b_jump_shrug.svg"
+    },
+    {
+      "hash": "sha256-6OI+WBflY0JBwzsQrB2pHlTgXHq8b6mt6W51+wuNehQ=",
       "url": "ex\/b_jump_squat.svg"
     },
     {
-      "hash": "sha256-J83RQZ0vTivqmwVBc8ACb+FoxmPJ7FEVzOD8NaSo6bs=",
+      "hash": "sha256-ZJFxVjPtZZo89r0ehgHY4IvujLn9OQU6bqfLpJET9nQ=",
+      "url": "ex\/b_jumping_jack.svg"
+    },
+    {
+      "hash": "sha256-yVKqTvWVNpZH9OTQb7xW8DRdqXrjADJ4t+4EDfrioj0=",
+      "url": "ex\/b_jumping_lunge.svg"
+    },
+    {
+      "hash": "sha256-U18GpddHOUWUGWWvzVDpB\/rT\/\/oL8vqEwQ8WL5qlwbs=",
       "url": "ex\/b_kb_swing.svg"
     },
     {
-      "hash": "sha256-ucHSBCiKRQDqnlzkPQGlN9PBSrkauxPNaR6vne+8nMA=",
+      "hash": "sha256-8Ymcy\/74hkDu+7kft0ytISsmzEcmoSvGDm8ux+bdJlU=",
+      "url": "ex\/b_kettlebell_around_the_world.svg"
+    },
+    {
+      "hash": "sha256-kDqwBhEvvG0E0VrFhjp2Ct45VfjCzJH0M0u8UwqHsko=",
+      "url": "ex\/b_kettlebell_clean.svg"
+    },
+    {
+      "hash": "sha256-Pgrr6YS\/DleEUo1k67IYxyp0AX4llMNdzthFzodZU5k=",
+      "url": "ex\/b_kettlebell_curl.svg"
+    },
+    {
+      "hash": "sha256-6CmOMk2I2FzUABqANDGMiX\/tOzHMZmf3gPbHBENbhZU=",
+      "url": "ex\/b_kettlebell_goblet_squat.svg"
+    },
+    {
+      "hash": "sha256-vM75ug2wnCMJR\/x1r21mLKy5Qqs7wvWAXRpbsAeaiD4=",
+      "url": "ex\/b_kettlebell_halo.svg"
+    },
+    {
+      "hash": "sha256-dnYUw476sfIn6gP0JNK8qw09Rj3u8M4FyWkscGK\/G+M=",
+      "url": "ex\/b_kettlebell_high_pull.svg"
+    },
+    {
+      "hash": "sha256-TkP3qGcf+uuP4UZYzf\/a5GLiIo+r9YUuKNiQ4uxTEhQ=",
+      "url": "ex\/b_kettlebell_shoulder_press.svg"
+    },
+    {
+      "hash": "sha256-740KJu4hAqyWU0iIOFI0onXXkYV0Rlb+5FyYQ9U6OTI=",
+      "url": "ex\/b_kettlebell_snatch.svg"
+    },
+    {
+      "hash": "sha256-LhNsL15HBIpw72rqbxqgp5EH0obli+aRiPWmleuOQVQ=",
       "url": "ex\/b_kickback.svg"
     },
     {
-      "hash": "sha256-PIetfiPgrzb3RfRxjzbckz\/75zxFQXG+8IRtkL7kO7Q=",
+      "hash": "sha256-pAi8S3eyTHNm8pZ8O2ikyT283HPCK23rpR2HOQNS9CM=",
+      "url": "ex\/b_kipping_pull_up.svg"
+    },
+    {
+      "hash": "sha256-EyZkbiwEGdAwZjVvaygI3aj+KgyFDIazjPB3gTw4eRQ=",
+      "url": "ex\/b_knee_raise_parallel_bars.svg"
+    },
+    {
+      "hash": "sha256-WKnFB4ms4WmDdBQLwxAzDbYrMfuE\/4KlfGibCAqyiVc=",
+      "url": "ex\/b_kneeling_pulldown_band.svg"
+    },
+    {
+      "hash": "sha256-SG39CBMg+wYyQFgVQ7j1w3gGD+wHogl6zCZZmErzr9E=",
+      "url": "ex\/b_kneeling_push_up.svg"
+    },
+    {
+      "hash": "sha256-lfSOFtRG83LL2+qF3w82VVrDK4S3sDEJYGmNsjc0l6s=",
+      "url": "ex\/b_l_sit_hold.svg"
+    },
+    {
+      "hash": "sha256-4FJxEk0EKZydDj7Aa9FEmPU\/OCWgo47fwifMuSz26rg=",
+      "url": "ex\/b_landmine_180.svg"
+    },
+    {
+      "hash": "sha256-tDD85CIO7TI4oS9R4x5pBxkTTjvRQ8A\/0VW3BAxs3nE=",
       "url": "ex\/b_landmine_press.svg"
     },
     {
-      "hash": "sha256-AVuKvu2Sp01WOn8Q1pQGFW3jQXeFR7GD8LdjqvQ0ivI=",
+      "hash": "sha256-h1+XJBZMCMg1rQM0E+P70h+H\/l34XyX+0NuY\/u8glpk=",
+      "url": "ex\/b_landmine_row.svg"
+    },
+    {
+      "hash": "sha256-ViurSmOZiv69k2K+y8VLsYTWpEK5pcAhNitqoth5+X4=",
+      "url": "ex\/b_landmine_squat_and_press.svg"
+    },
+    {
+      "hash": "sha256-uCcvVz06YCKDvc3njuJgp+lU0tofqkKRFp33E0zhtbs=",
+      "url": "ex\/b_lat_pulldown_band.svg"
+    },
+    {
+      "hash": "sha256-PmXOYYoZbmIKpkYDZn8Y\/hD0n\/mRBIx0mlM8CG0BjPo=",
       "url": "ex\/b_lat_pulldown_close.svg"
     },
     {
-      "hash": "sha256-KqiCHUsNhCi5yEzSaxizKGtlaYfGHLe+NUyFqPzqqI4=",
+      "hash": "sha256-QJpzHbV0eHx4FKbI9syPanh8b3Qa12MwiVQzyhirlTc=",
       "url": "ex\/b_lat_pulldown_machine.svg"
     },
     {
-      "hash": "sha256-rA1my4Krl4lQuVv4dwDHQDmXTOWHicPCQoc3hh7Tsgw=",
+      "hash": "sha256-IfH1AOjZaGRQpCFLf4lFmCPsplTnGYpttW8\/sWLbTGM=",
       "url": "ex\/b_lat_pulldown.svg"
     },
     {
-      "hash": "sha256-KE8vbVZuWN7lKrf3f2bwGurgeTqfzwNV4C2WfK6NdqQ=",
+      "hash": "sha256-cXw+6he2wS+AoXx4dkwOmYhsiLFoDQQAa6PeF7mtIU0=",
+      "url": "ex\/b_lateral_band_walks.svg"
+    },
+    {
+      "hash": "sha256-ttE4cri1Z0RGwPO5UfDzVQfEbLh8A5uvYL\/c\/Wt2vms=",
+      "url": "ex\/b_lateral_box_jump.svg"
+    },
+    {
+      "hash": "sha256-\/\/OBYvmjEs2iY1hqc3FaJRD4n1wEobTfu2pb7KM49co=",
+      "url": "ex\/b_lateral_leg_raises.svg"
+    },
+    {
+      "hash": "sha256-tg93i30gfVLsZ0Sl+wrXM0ERryUKK610\/H4FZIa1LVs=",
+      "url": "ex\/b_lateral_lunge.svg"
+    },
+    {
+      "hash": "sha256-4BGJnZ3d3\/\/hmLeQs\/vBrtDYGucL4HKZinYWeirj370=",
+      "url": "ex\/b_lateral_raise_band.svg"
+    },
+    {
+      "hash": "sha256-1eXNZ\/8p0J\/Ei2+hiGKtheClRkE3Hf3KuMBfn9nqaX8=",
       "url": "ex\/b_lateral_raise_cable.svg"
     },
     {
-      "hash": "sha256-dQjNEXw3YgDgT4mICPuwVqc7+AaPRS1sx+Ss3ZEw3dE=",
+      "hash": "sha256-P9lgwebKyJqG3+jvNGbC89CxMU+hak0adQQ5eKOZmyw=",
       "url": "ex\/b_lateral_raise_db.svg"
     },
     {
-      "hash": "sha256-r\/CKX6MWzcu\/j1pyqx3Wy7Qq4iuZnuc+2sFIYGFLbxE=",
+      "hash": "sha256-ZHfIDgdNjNkvLPUO4UOFl3gG2ahlha1IEOJkQpwuWBI=",
       "url": "ex\/b_lateral_raise_machine.svg"
     },
     {
-      "hash": "sha256-MqD2Vl2jshewWmccXq9YV9nxCFHxaksYz0aTsWAwayg=",
+      "hash": "sha256-tg93i30gfVLsZ0Sl+wrXM0ERryUKK610\/H4FZIa1LVs=",
+      "url": "ex\/b_lateral_squat.svg"
+    },
+    {
+      "hash": "sha256-e5oCPjlIKCYTZgvgkSdskVXzjo4zqp68LZqllJD9GFQ=",
       "url": "ex\/b_leg_curl_lying.svg"
     },
     {
-      "hash": "sha256-MqIOtmjovkDtPU3HTkRWJbslENDiAl6eWmEoVPeAeFs=",
+      "hash": "sha256-5lxjBwmwf\/exdDMhhiEIJ5yD0bL3cBADzc1SbgZJFTo=",
       "url": "ex\/b_leg_curl_seated.svg"
     },
     {
-      "hash": "sha256-DaxGp+e7W3U5auLh9QilTjGbv4o9dtUY5ZEDwOuuG2M=",
+      "hash": "sha256-zF7zfift2i9sLKy4wQcWwdlwhPx+aGbazSpjZsTHleI=",
       "url": "ex\/b_leg_extension.svg"
     },
     {
-      "hash": "sha256-ymXBr\/eOTd5WDPCnf0ZG44Bprd\/amGVCGPZXIMBVGxo=",
+      "hash": "sha256-0BvgWasVcnNRxcUqduk4gkiBSvx5kKu8gfHXVzzqoqY=",
       "url": "ex\/b_leg_press_horizontal.svg"
     },
     {
-      "hash": "sha256-RkANSFL\/96CNJoiBCmuLGyruXwiHsWZOpT\/Pkg8ByRo=",
+      "hash": "sha256-CgPZle4UtjRIO1BgP7DNtNzJjCyE0yaEsR2MZPaYVGk=",
       "url": "ex\/b_leg_press.svg"
     },
     {
-      "hash": "sha256-tLjJsMbxc176ivfL6o+OIpNSzwakrNLlhAjMO\/slXHY=",
+      "hash": "sha256-UPyJIAaqiWBNDHEhaRBMVEZtWm5jeLUbufXiKnilhIk=",
       "url": "ex\/b_low_cable_fly.svg"
     },
     {
-      "hash": "sha256-nhnuPZOURYPExQv6VPDmCHl4pIY4oZQWQ0G4YEBo6QA=",
+      "hash": "sha256-OpGvUVQcqyHRWiDDqskgUQGQuT00hGbzmZp33CGvD1c=",
+      "url": "ex\/b_low_row_suspension.svg"
+    },
+    {
+      "hash": "sha256-jkE\/Bes+lK3sLag+q2uFeSZOiFLIl7qY7oz\/L4PMLXs=",
       "url": "ex\/b_lunge_bb.svg"
     },
     {
-      "hash": "sha256-67\/owg4aqDAUVuahc1hTU5kxt1i3gClAdSifiDG5hhQ=",
+      "hash": "sha256-GfonTFd+guJxf1cCNug0AB\/86L1cY3lCyhs8ts4lik4=",
       "url": "ex\/b_lunge_bw.svg"
     },
     {
-      "hash": "sha256-H+oP0WFsekX2rmDsJeEB44mvK4tWDEWt4zk89N9W8Y4=",
+      "hash": "sha256-OpzptgOtB3pVwIgeY0dxqwheTpWIoKvHMpPW11h6Pe8=",
       "url": "ex\/b_lunge_db.svg"
     },
     {
-      "hash": "sha256-QOoMIe3s51rhjxAoX+Ai6nHTJo2BbZEi0egjy9LLxdA=",
+      "hash": "sha256-w\/8M2Gbco7lZEmCVKmWdMOwdArs\/2s6wOyXcGAjAtow=",
+      "url": "ex\/b_lying_knee_raise.svg"
+    },
+    {
+      "hash": "sha256-7e2dkvrayE\/4smUWVd2ElSYpKv+tIy9hb55UmH\/hABo=",
       "url": "ex\/b_lying_leg_raise.svg"
     },
     {
-      "hash": "sha256-33ysC0ueSz9ybl9zYygldnQ\/KwZiR2xTtX6cy36WZzc=",
+      "hash": "sha256-FMuEJWexDyyX9vcuRo66bJtjQI9N7zR0CUZKyY06iGY=",
+      "url": "ex\/b_lying_neck_curls.svg"
+    },
+    {
+      "hash": "sha256-FyUnwK9z9Xq2MaJCZ+jXDCT8b7GJjXtgR75T+mR4JrY=",
+      "url": "ex\/b_lying_neck_extension.svg"
+    },
+    {
+      "hash": "sha256-vd5PQxiNq8+AcFP\/edUNKsgDvUmQ0CgHsoaH\/IHxtDM=",
+      "url": "ex\/b_meadows_rows_barbell.svg"
+    },
+    {
+      "hash": "sha256-AoemDEgldhf6ncInGK0h+f5LKe965Uf3KEozsuv+RVQ=",
       "url": "ex\/b_mountain_climber.svg"
     },
     {
-      "hash": "sha256-w7lRVyJwANecKtDPf5JMQTLf4jZFl+43CryoqOoyAwI=",
+      "hash": "sha256-DoNuaqVeQbh0l79cbv8r\/av1WJLYbiNjHi0BCLyAiyE=",
       "url": "ex\/b_muscle_up.svg"
     },
     {
-      "hash": "sha256-zJjRjMqATE+qBZDtOaQmTxchrcCDQOiIMOnFXgxjvoU=",
+      "hash": "sha256-rwAyTqFFEFB+\/tcBfLZId4UtnbW7vjqRQw968YF2MVg=",
       "url": "ex\/b_neck_curl.svg"
     },
     {
-      "hash": "sha256-DvnGzLdfSPByxtvCWn6tmqgMQdxJi2Gwb3HFMWTcBLI=",
+      "hash": "sha256-BCJcbXzSBOcSq6BJS1Ia7AAOotCO4Vn61bxAQeqI3BA=",
       "url": "ex\/b_neck_extension.svg"
     },
     {
-      "hash": "sha256-6T6ckZNjEoCwMo3AnE6fcKqaX4T9E\/1vP2V7E+rYxeE=",
+      "hash": "sha256-6CofgyU4X0JRjn9LLItB70l7maMhupre6mVEY1vAI8M=",
+      "url": "ex\/b_negative_pull_up.svg"
+    },
+    {
+      "hash": "sha256-QuRuoOIGzXD+kXo\/bv7NHn7GDROakqdTHnxvEyNszdo=",
       "url": "ex\/b_nordic_curl.svg"
     },
     {
-      "hash": "sha256-NdaceuaMHfZ2yTPpUIBiHVqEum3ugy54tK072gzktJQ=",
+      "hash": "sha256-mXDfoxCnq3uC8s4hu1d1\/ixy0VbiKbg7KHYJO3k30UM=",
+      "url": "ex\/b_oblique_crunch.svg"
+    },
+    {
+      "hash": "sha256-VyWVD4\/ed5+Kl0an29+3ipshMBFZm0YRe7N5agJ5qgg=",
       "url": "ex\/b_ohp_bb.svg"
     },
     {
-      "hash": "sha256-UrF4FKz6\/VSXOyhjEH2DdQwKls4E16bDJAqu6Kcvdg8=",
+      "hash": "sha256-VqP7\/xhDGY7RgENtQ7hXghwLsFUqqJLDMoV2tTGxEzw=",
       "url": "ex\/b_ohp_db.svg"
     },
     {
-      "hash": "sha256-bOfXxuYfnz0y3jrulT+oODUl8WGfigaKRaJnLRjMA4s=",
+      "hash": "sha256-LEK5iLBQxt6ZzP26II+lqxjZDkZa0rIENIEX6Okazl4=",
       "url": "ex\/b_ohp_smith.svg"
     },
     {
-      "hash": "sha256-OTtfHG+F1D3iMaGg3MchICSWn3IdoeEiMTrgDifcqcU=",
+      "hash": "sha256-0bzrCGYe9+LJyiPFkLcLU9105DgjXS8iVoLVRhigt\/c=",
+      "url": "ex\/b_one_arm_push_up.svg"
+    },
+    {
+      "hash": "sha256-4QqwX0XH42\/0DXLnXwo8cNQBmbNRtm2hbgIKM4BYVlI=",
+      "url": "ex\/b_overhead_curl_cable.svg"
+    },
+    {
+      "hash": "sha256-YzeLECWyXC6leGrr3UybX2k6dXa25UeElGKDu3GtGDw=",
+      "url": "ex\/b_overhead_dumbbell_lunge.svg"
+    },
+    {
+      "hash": "sha256-M9pXbrOtHL\/nOV\/5irb5GLGGVusmTJ5BEL5Ooey3SkA=",
       "url": "ex\/b_overhead_ext_cable.svg"
     },
     {
-      "hash": "sha256-muODZZbTsjUHz1jjXYUYMdOEAvuhx+w3x+RHx3CC70k=",
+      "hash": "sha256-GoYL6O4pi8y0rb2Mszp6O1YeU2ZrXxjVqDDcLus5Ssc=",
       "url": "ex\/b_overhead_ext_db.svg"
     },
     {
-      "hash": "sha256-GIf\/tntbDhSW2ay8hjE+J64fuF1YJ9eeRLfvkOY3JCE=",
+      "hash": "sha256-trHAlDU67w4YDiFgHHO4ilEjxMK6givrfCpkrtBq9F8=",
+      "url": "ex\/b_overhead_plate_raise.svg"
+    },
+    {
+      "hash": "sha256-3b0KaIDOdF+KFcdkcERB6DNpzJmESI\/\/KcxPQf9mDLE=",
+      "url": "ex\/b_overhead_squat.svg"
+    },
+    {
+      "hash": "sha256-N5yRfzsyyeYOwNpl7VJvEDpI1uvcd7+J0Wj7Y1UXPw4=",
       "url": "ex\/b_parallel_bar_leg_raise.svg"
     },
     {
-      "hash": "sha256-1rGeBsoBfnccPH8AB7srGhJ9noYCS3f7OBc7JUFDQWs=",
+      "hash": "sha256-HqdEYQqib8LeWVzmlNgoUa0x12abVmTJu2zJWoui7d8=",
+      "url": "ex\/b_partial_glute_bridge_barbell.svg"
+    },
+    {
+      "hash": "sha256-1ydx7pCTpuJ+hjOq4ExoDHarEvxo1aJzgJsGsmGipls=",
+      "url": "ex\/b_pause_squat_barbell.svg"
+    },
+    {
+      "hash": "sha256-2xZQIRQsMwFWMyQjq\/LtIB\/wgUn1YGVDrYXONhNx3FY=",
       "url": "ex\/b_pendlay_row.svg"
     },
     {
-      "hash": "sha256-2aeXGFqhc5pAFsmYRzd33jLwfrVzAq4AFxvClMi533I=",
+      "hash": "sha256-F1bBH\/IydJWkuBE7zQ6tb\/SAe9EFwJtA8cpPIrsX9o8=",
+      "url": "ex\/b_pendulum_squat_machine.svg"
+    },
+    {
+      "hash": "sha256-0Oqlsm8QRPLbgx8GiA3bgcAO\/O4zA620Oe2LOtenHeA=",
       "url": "ex\/b_pike_push_up.svg"
     },
     {
-      "hash": "sha256-9cyuu5ndD86W8hBy050y65nxes18C6qExUdUov1bjuE=",
+      "hash": "sha256-ovG5q7b03QQ4bfJXtSJtzNXrwVjfECBycQ4i6sT5fao=",
+      "url": "ex\/b_pilates.svg"
+    },
+    {
+      "hash": "sha256-iUFyDmHsXyySs9bRvJ\/DTvDtqAgM6wh+Sx76arDFgDE=",
+      "url": "ex\/b_pinwheel_curl_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-9eC\/c9M1yAielIPVIKHrleDXFgyiaMes7ikeG1v52Xw=",
       "url": "ex\/b_pistol_squat.svg"
     },
     {
-      "hash": "sha256-CGwu\/rPp\/4w+M61jInq2n7IT4+pStY\/82d1ib0tUKus=",
+      "hash": "sha256-0PX+vTJFrTbSSP3\/+pDtKw0xBY86FgXFbTA5hp81lmc=",
+      "url": "ex\/b_plank_pushup.svg"
+    },
+    {
+      "hash": "sha256-4EIYT0iwuk\/uMHsQyf+TEkHdoJ6JRnzpBM308FBNrDI=",
       "url": "ex\/b_plank.svg"
     },
     {
-      "hash": "sha256-a7yQC49FT87TYV\/ZhQNvlevPi5Kd6pr7Qpp2uAxh\/Sg=",
+      "hash": "sha256-FWc2HrA1hmCDMUBXZUd3LFRuwOgvJXdFYe\/f6y0ts94=",
+      "url": "ex\/b_plate_curl.svg"
+    },
+    {
+      "hash": "sha256-mYKRpr4voXCRsmEyLTq6l9TESrMV4E7ljswlns38Kvw=",
       "url": "ex\/b_plate_pinch.svg"
     },
     {
-      "hash": "sha256-MuhaBC3gkHg3+JGrLoxIAZ3TYiPjJY538y3fKEiQzdw=",
+      "hash": "sha256-Q+EBaeK0tEYFy3FVzJmufpa+2gZp7sBPbagQTk47hRA=",
+      "url": "ex\/b_plate_press.svg"
+    },
+    {
+      "hash": "sha256-kvZRknAbMK8yLl6lo1Rv2i61TUkes0JwMFdRALDMvmc=",
+      "url": "ex\/b_plate_squeeze_svend_press.svg"
+    },
+    {
+      "hash": "sha256-ycEelpUQSS5zokNCqB3seQLwUxIEPjkngSR2pDYNSn4=",
       "url": "ex\/b_power_clean.svg"
     },
     {
-      "hash": "sha256-IZtDMIxpGfA2lKwpvGBYL+VBs8lSoJFC\/hkz04ZRrAI=",
+      "hash": "sha256-2Yk3eYRY+nvUibYgVuShIBdZHuyKccs4WQ2HwOQMwOM=",
+      "url": "ex\/b_power_snatch.svg"
+    },
+    {
+      "hash": "sha256-QpMNAnXwfKfixafarotvSfusFRsUOtlts3r3rF0CS9w=",
       "url": "ex\/b_preacher_curl_db.svg"
     },
     {
-      "hash": "sha256-GBTeWa\/V6goELYKPKqCImFyCJZ6s6fFBGPDp1UYJBGE=",
+      "hash": "sha256-gr9Gbt9E3FE5Gq48tvgiq5NBy2l7omh2wf8WwRy7ZmU=",
       "url": "ex\/b_preacher_curl_machine.svg"
     },
     {
-      "hash": "sha256-hxX4PWnWrdqAY3\/TcX\/m+p9f1Tmzyk1GYjkvYdLvbCQ=",
+      "hash": "sha256-sf8bNN\/tROgjQji4cDVc0FT8qO54Qavb3erGaihZYRw=",
       "url": "ex\/b_preacher_curl.svg"
     },
     {
-      "hash": "sha256-4E0iCJwSwVZhmNhO8fxc4z7u732ETVQoauZONTTjCJc=",
+      "hash": "sha256-lGu8S\/86V0W2I1yggjeG6p8vQ+frFTmNiltE0BPnyX4=",
+      "url": "ex\/b_press_under.svg"
+    },
+    {
+      "hash": "sha256-x3yS9cQX+c9rlbFdAv+sfZR3agM7bNizcImjEikL9oI=",
       "url": "ex\/b_pull_through.svg"
     },
     {
-      "hash": "sha256-YeUxA9tT+xVgJpFSQkdw1LYVFgfftjioeTjS5HAvSOQ=",
+      "hash": "sha256-6lXPEARyD8lbUeusZYBG4zBbDpAzCQeoBx3jpw\/X1zE=",
       "url": "ex\/b_pull_up_assisted.svg"
     },
     {
-      "hash": "sha256-q74Hn0efNJc3WJu9VE+UhK3EOOu4oyuDuEZglT7cPPY=",
+      "hash": "sha256-KGn3WVsF4WRnRjaN3Y5n216WJoKJryzALjXUZ88R4uA=",
       "url": "ex\/b_pull_up_band.svg"
     },
     {
-      "hash": "sha256-TC\/g41rwcOi6RqoSrl6z6U4vIT8oZ+6NeLeL4iYmXrE=",
+      "hash": "sha256-Hq\/AIAhEGGCiDkLAQZ2UK51pFVuCRNhbIo1IuFMZ100=",
       "url": "ex\/b_pull_up_weighted.svg"
     },
     {
-      "hash": "sha256-3yh1Gv7WCCIdaTptHJ3BypK5OCoip+Kuudi\/4jviK9U=",
+      "hash": "sha256-QPF6gwrOnBR2c3JsR51jyoOz6UFlFQXXZ44ZwUng3Dc=",
       "url": "ex\/b_pull_up.svg"
     },
     {
-      "hash": "sha256-hGeDDJGfYCwfW4fQ7ogErvFnYUDfQhZvJ99WxzCSsqU=",
+      "hash": "sha256-TgyWj9hSKlndNY29OTifnpOvgOKXScYA9t5e1VE5n60=",
       "url": "ex\/b_pullover_db.svg"
     },
     {
-      "hash": "sha256-lYMvQYGfvjbGyy1UX+mOO8+Ki79IaEg56YaaPQnrclU=",
+      "hash": "sha256-zPNl8AUMMEnaSYkq53E0QJ\/0POs98COh5dp4g646LxE=",
+      "url": "ex\/b_pullover_machine.svg"
+    },
+    {
+      "hash": "sha256-Npvk3fMFbN3DN1ub3yXGtGdptpFFTBE40txegek47Q4=",
       "url": "ex\/b_push_press.svg"
     },
     {
-      "hash": "sha256-hsN77o84EHQQaPKPqOf0sz60XCiHYgOYKyFvl7fG50g=",
+      "hash": "sha256-YJ+csRjoOCLi59hD598e21Gn37cqzLSFICDpOOzEuZ4=",
+      "url": "ex\/b_push_up_close_grip.svg"
+    },
+    {
+      "hash": "sha256-IclIVfaWsUgr5UYUohLu2YSuqGSfX17hHwyXAyb9yhY=",
       "url": "ex\/b_push_up_weighted.svg"
     },
     {
-      "hash": "sha256-+Yh\/Kp2Xr1pQsvX01ITenrxokG2I5CC7ZbM7HR89NR8=",
+      "hash": "sha256-StY2m3P0u9tNzFcjMJk789VEGQk1U0Amv8xh59EMrPY=",
       "url": "ex\/b_push_up.svg"
     },
     {
-      "hash": "sha256-kplb+ALVu1SzkO2embJAZM+wVOKc3HZG+TXC42vAh\/8=",
+      "hash": "sha256-Pc01BXeiP1OPLlcVZuRiqO3V2oN7yxlael4BkkgSX8I=",
       "url": "ex\/b_rack_pull.svg"
     },
     {
-      "hash": "sha256-xbocyFjk48hRovR9CWBZiC3qdcSyawLB1jHoE8SsgKQ=",
+      "hash": "sha256-ENf\/Z25gL0MzzKtlBX6Q6VpghPO88pVKacKJHBI51\/c=",
       "url": "ex\/b_rdl_bb.svg"
     },
     {
-      "hash": "sha256-I1pQzAW9wfhpYwClVervqzHUid51EYB\/uVlZgb5xKlM=",
+      "hash": "sha256-\/Rvw2on4AH7fjy0px\/t2ktXZ3Z\/r+qmyTQrY6czQqSk=",
       "url": "ex\/b_rdl_db.svg"
     },
     {
-      "hash": "sha256-uLyf113fQqS4Xx3vqppqYXYvTnTYziNW7d3YuqSpWHY=",
+      "hash": "sha256-bIs7Z6brjWvpFsdAyrwpNJeiiOPHy5ktteQRgbM0sN4=",
       "url": "ex\/b_rear_delt_fly_db.svg"
     },
     {
-      "hash": "sha256-AB56wjzb+vu1D\/o2PxkYttXwBqrEaHrAppHugblSDZs=",
+      "hash": "sha256-AYs\/FuPFNBdBlR\/SPd2uRbOz8MMP0YVDTarsIWIuSQA=",
+      "url": "ex\/b_rear_kick_machine.svg"
+    },
+    {
+      "hash": "sha256-G6M4GNr5JjZiYC4VbmJPRvDjm8+JMthJQ8hWINIKTOI=",
+      "url": "ex\/b_recumbent_exercise_bike.svg"
+    },
+    {
+      "hash": "sha256-sw1uTfVeuhg7YufADeWmgGlTmlU2weDdW+qopPhrCPU=",
+      "url": "ex\/b_renegade_row_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-2nznCR0ranaaDdlp4k0kRzk9cnhB5GMFvZMRQkEI1vM=",
+      "url": "ex\/b_reverse_concentration_curl_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-IvO54YZhpnu3s+IL9V76\/JMJ\/fVUflWbdBvQOyaO1Gg=",
+      "url": "ex\/b_reverse_crunch.svg"
+    },
+    {
+      "hash": "sha256-3CroSa\/+2pSy3rXIQrRxwnGnfss4COPeTJBNHeJ3viY=",
+      "url": "ex\/b_reverse_curl_cable.svg"
+    },
+    {
+      "hash": "sha256-8cm8YpBort0G2xAurtRn7nNZnimzZiKtBFENxyDk5ms=",
+      "url": "ex\/b_reverse_curl_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-AtpvT5vjVmCL5OOlY8BUKnON0thJ+aRuN4ElI5oqpfA=",
       "url": "ex\/b_reverse_curl.svg"
     },
     {
-      "hash": "sha256-JujmKu\/6p8fSgLnwEICzVJUxz\/cY2SgxAPo3CfhMwSo=",
+      "hash": "sha256-NchqKxjqOCc89dhUy9tOJhjtSD0Bz4vjTs3U8LUiv6U=",
       "url": "ex\/b_reverse_fly_cable.svg"
     },
     {
-      "hash": "sha256-TXpwgyajOXPqcdJf7yYSUPf1KWaPkA4dFjXBemaCPk8=",
+      "hash": "sha256-KlMJ7gJc1+FoN9SrlleP3YSS8HeqxnAv\/2\/4OJDjzxk=",
       "url": "ex\/b_reverse_fly_machine.svg"
     },
     {
-      "hash": "sha256-ywa+GpP08hDlgE1N927nbRPFKcQOMIF9MWei0I+stSU=",
+      "hash": "sha256-NchqKxjqOCc89dhUy9tOJhjtSD0Bz4vjTs3U8LUiv6U=",
+      "url": "ex\/b_reverse_fly_single_arm_cable.svg"
+    },
+    {
+      "hash": "sha256-b1eSVWqhQaII2xM\/i9PQGkh4YZX64Kwlj+JNoU6GU7o=",
+      "url": "ex\/b_reverse_grip_lat_pulldown_cable.svg"
+    },
+    {
+      "hash": "sha256-EJCXa0jtLXk\/lsY\/pMBOlNwGAv8HOobEMQiUJlQ3zng=",
+      "url": "ex\/b_reverse_grip_triceps_pushdown_cable.svg"
+    },
+    {
+      "hash": "sha256-6LBD6er7aiSdWAspWvTPrGWesCZiAWIwrxsa1o815Xc=",
+      "url": "ex\/b_reverse_hyperextension.svg"
+    },
+    {
+      "hash": "sha256-GfonTFd+guJxf1cCNug0AB\/86L1cY3lCyhs8ts4lik4=",
+      "url": "ex\/b_reverse_lunge_2.svg"
+    },
+    {
+      "hash": "sha256-jkE\/Bes+lK3sLag+q2uFeSZOiFLIl7qY7oz\/L4PMLXs=",
+      "url": "ex\/b_reverse_lunge_barbell.svg"
+    },
+    {
+      "hash": "sha256-BdGgcLUsTg36\/ycCePxx2i56tA4acaWCP8IHDDIKY5A=",
       "url": "ex\/b_reverse_lunge.svg"
     },
     {
-      "hash": "sha256-VDdK18OYFV\/St6OFtRrMgQfS4EDs7cF8RAGFQ+rueWs=",
+      "hash": "sha256-NyePlTdsAj9XdnU966oDhqjb7Z1kvA6MRLhIAGY1vj4=",
+      "url": "ex\/b_reverse_plank.svg"
+    },
+    {
+      "hash": "sha256-D91b5tcihXDpQTb3LTnNf7ocuDOXFmJQAP3O5CMPhuU=",
       "url": "ex\/b_reverse_wrist_curl.svg"
     },
     {
-      "hash": "sha256-aqlnuC51NP\/MwWDKCGZeek1iRMhPw\/Flchtzi0AMz5s=",
+      "hash": "sha256-8zCa778bmBj43jyP5SKub+er4Cg2LlFQHQ0GTJX6QtM=",
+      "url": "ex\/b_ring_dips.svg"
+    },
+    {
+      "hash": "sha256-mFcOWD3ja+2pXSpVPZM5Q88ZXSg+wRxuqz3pu+xtOwo=",
+      "url": "ex\/b_ring_pull_up.svg"
+    },
+    {
+      "hash": "sha256-BIgcIyrBGQdriNojQntffa+KYYvYYWO5cGKLrKT90CI=",
+      "url": "ex\/b_ring_push_up.svg"
+    },
+    {
+      "hash": "sha256-RHobVDMT+mifs9PYtOSnym7cEW0cUG04stuG7ln9\/Wc=",
+      "url": "ex\/b_romanian_deadlift_smith_machine.svg"
+    },
+    {
+      "hash": "sha256-VhZ4fksh1GH8bdClQRvipPixL9Bgw01SRveZIDmahNQ=",
+      "url": "ex\/b_rope_cable_curl.svg"
+    },
+    {
+      "hash": "sha256-VhZ4fksh1GH8bdClQRvipPixL9Bgw01SRveZIDmahNQ=",
       "url": "ex\/b_rope_hammer_curl.svg"
     },
     {
-      "hash": "sha256-LHfx\/fQQg7K7BWO39MFbb2wO5GVt7hMuynPRFSBXCBI=",
+      "hash": "sha256-Rd6k3MC3vb9vj+UzbyjMt1giw8kgO2xLdXtbEktyzIo=",
+      "url": "ex\/b_rope_straight_arm_pulldown.svg"
+    },
+    {
+      "hash": "sha256-9gPsBI\/JsZ6TOpu8sr1lbQJGwYEjD6N7S8+6Qv2ZxxA=",
       "url": "ex\/b_rowing_machine.svg"
     },
     {
-      "hash": "sha256-44uxDYKofCzZ2QGemiJI+CZ68Q+JJwQbC3s+wM0J7PY=",
+      "hash": "sha256-RXJ5Rtu2LP+errhXX4i6qOd1hhza2UEKFVf8KFohlIQ=",
       "url": "ex\/b_running.svg"
     },
     {
-      "hash": "sha256-zso586Jb+3qQZOe9sLTlVYeh0aXEeKXsi+mCoVXCfVU=",
+      "hash": "sha256-1lAu97BHTSWxjwRzR+ErZtGxvxvYB2g0ItKup\/\/Xa5U=",
       "url": "ex\/b_russian_twist_weighted.svg"
     },
     {
-      "hash": "sha256-lrl85PLd4bOI0ohRK1qUwtoAogVQ1ZeYkpdSWTq21Eg=",
+      "hash": "sha256-3OtTZEhKsd4BKN+aPAzLtoTXYTd9a6V\/XpI9cR5TKbw=",
       "url": "ex\/b_russian_twist.svg"
     },
     {
-      "hash": "sha256-FiSnngTFGUXQNFPhpphqq8iKfG23m4+b35rcuI\/feFQ=",
+      "hash": "sha256-XOMlj38Pno1\/OfRkZiQ2J4PXd633kDGGHN145J84UZ0=",
+      "url": "ex\/b_scapular_pull_ups.svg"
+    },
+    {
+      "hash": "sha256-PPsaDRB\/Oazlaa+uDpU9SnJbApsy9Onbw6RP6hk6In4=",
+      "url": "ex\/b_seal_row_barbell.svg"
+    },
+    {
+      "hash": "sha256-3\/UWq\/GCgsZnYP7z90fk1+wCvrDyT37iMAkPpAXLk1Q=",
+      "url": "ex\/b_seal_row_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-AkqVntqs9twbxhmQ\/7ufH4rwAdBoKBICXN6S55\/sMy4=",
+      "url": "ex\/b_seated_cable_row_bar_grip.svg"
+    },
+    {
+      "hash": "sha256-UtD5jehj9YAEE15yQuMoVCR0kSi\/5MjkzYd+5yZVO1k=",
+      "url": "ex\/b_seated_cable_row_bar_wide_grip.svg"
+    },
+    {
+      "hash": "sha256-AkqVntqs9twbxhmQ\/7ufH4rwAdBoKBICXN6S55\/sMy4=",
       "url": "ex\/b_seated_cable_row.svg"
     },
     {
-      "hash": "sha256-JgXspD+HtFP\/fw0lwXf8fwUvvWibTwIvDYv+heMDdhI=",
+      "hash": "sha256-0qbpiuK67AvyYGp9i3VlDQD\/Y7nwDPSwkCMT2ambBAQ=",
+      "url": "ex\/b_seated_chest_flys_cable.svg"
+    },
+    {
+      "hash": "sha256-QYCAPVG7VkJZ0V3cn88rJ6DLeTX\/Wvr1uyCHTxhpe+k=",
+      "url": "ex\/b_seated_dip_machine.svg"
+    },
+    {
+      "hash": "sha256-6x5qGgtSl60MmAiiPnTMfQJVEpSVigx0vkkPaJbLwZ8=",
+      "url": "ex\/b_seated_incline_hammer_curl_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-RQmxedUgvUVp8vlnxGyhDWaWMbn3jsafBFmvJhKd+08=",
+      "url": "ex\/b_seated_lateral_raise_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-Lkj+Lnnd61utuTjNb\/jstXlRp1aFZH5LlPfscjfqdFc=",
       "url": "ex\/b_seated_ohp_db.svg"
     },
     {
-      "hash": "sha256-zlo5qHrtzyOgQ\/BW1vniQOo1YN+YJVw4Mf6yHYQR0KE=",
+      "hash": "sha256-WyL3X1Vf1z0orDJd7lCiQMlJJ4NcfYzKqDsAZaz0aXY=",
+      "url": "ex\/b_seated_overhead_press_barbell.svg"
+    },
+    {
+      "hash": "sha256-D91b5tcihXDpQTb3LTnNf7ocuDOXFmJQAP3O5CMPhuU=",
+      "url": "ex\/b_seated_palms_up_wrist_curl.svg"
+    },
+    {
+      "hash": "sha256-le0lReQkx9SmwC6TAD9MS2u0xFQXTKBuXmu4V7evtwI=",
       "url": "ex\/b_seated_row_machine.svg"
     },
     {
-      "hash": "sha256-4nOELPklOaoJtb61+mbS+NPeabxDCkZzzE5p3mCC8wE=",
+      "hash": "sha256-f0\/ewFMqts+Bfpk+GIH0+zGvWnN0ktxKcbZYu\/Ai41E=",
+      "url": "ex\/b_seated_triceps_press.svg"
+    },
+    {
+      "hash": "sha256-dTGWxtbQIkyY30QSz\/+rkiZOxKybuk7MYff2wYo5mTU=",
+      "url": "ex\/b_seated_wrist_extension_barbell.svg"
+    },
+    {
+      "hash": "sha256-Lkj+Lnnd61utuTjNb\/jstXlRp1aFZH5LlPfscjfqdFc=",
+      "url": "ex\/b_shoulder_press_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-+2xughwQGH1viz47saFBryp5ImmXS7GscbIz+Ut0mgA=",
+      "url": "ex\/b_shoulder_press_machine_plates.svg"
+    },
+    {
+      "hash": "sha256-bzUTnemDAXGP7xwDJcP6gFw1vUmINlOS4rUWV9I2QMo=",
       "url": "ex\/b_shoulder_press_machine.svg"
     },
     {
-      "hash": "sha256-ZWsRnySF54KxHlkys7y029GEQsTE1F7GCCayrEngCYE=",
+      "hash": "sha256-KOFXX0ZSH7MEYX8Z+GnQ98WidOsUroiSFCjbXZJ6j+8=",
+      "url": "ex\/b_shoulder_taps.svg"
+    },
+    {
+      "hash": "sha256-uHEBXgVtnu9HYvsgRgRd+IBwwcKLnCZ3vLDbOF3CV1s=",
       "url": "ex\/b_shrug_bb.svg"
     },
     {
-      "hash": "sha256-KMvlvgrmUBuiSMTwkLTGJHoiTcXEUf6Oc5RH8X8Wzj8=",
+      "hash": "sha256-otTxp+LR789T2A7eJiFlMVkfjPJcoFWiHx07wVIxq6U=",
+      "url": "ex\/b_shrug_cable.svg"
+    },
+    {
+      "hash": "sha256-2Ga7iWZfUnoC3KeWroEKELmOBSoJG5FY6P7kmARzB+k=",
       "url": "ex\/b_shrug_db.svg"
     },
     {
-      "hash": "sha256-t7ZpRx1\/zkRz+tN3tIFo\/bMcxSx8+pq0hZk9wKT2TUg=",
+      "hash": "sha256-zftPDjHmaeYkgepGDpMUjBLEH2cVHKnf71+sgH+mluU=",
+      "url": "ex\/b_shrug_machine.svg"
+    },
+    {
+      "hash": "sha256-gSGkPilUtN1OBQ\/fhGwtD6Yu5qZ5+Kxl\/lTnjQqHkwA=",
+      "url": "ex\/b_shrug_smith_machine.svg"
+    },
+    {
+      "hash": "sha256-fa9Ygs0PCGjb\/mbCibgRHVBoDmwacZwjdaLrtG0+diE=",
+      "url": "ex\/b_side_bend_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-VJCVTolus\/1Rut9AELiMa0CDD7c8yetHlwlrBDQtFzs=",
+      "url": "ex\/b_side_bend.svg"
+    },
+    {
+      "hash": "sha256-2N7dyfeb+VYnWA0AJ+ZcrjtGERxmw\/9MmlZh+bzB3SY=",
       "url": "ex\/b_side_plank.svg"
     },
     {
-      "hash": "sha256-71hul5JelKtx4u3ToDlowH5y7Ld6s5Ptww1EnzsQMoA=",
+      "hash": "sha256-rGGrP+s5sA6zx8QHnzLQ4MLWrnvceNLLZCYGwi861iw=",
+      "url": "ex\/b_single_arm_cable_crossover.svg"
+    },
+    {
+      "hash": "sha256-wF36Rh4G2c4EryDofE2zhBeNJCdvSSygQgUyCJJ9TdY=",
+      "url": "ex\/b_single_arm_cable_row.svg"
+    },
+    {
+      "hash": "sha256-3CroSa\/+2pSy3rXIQrRxwnGnfss4COPeTJBNHeJ3viY=",
+      "url": "ex\/b_single_arm_curl_cable.svg"
+    },
+    {
+      "hash": "sha256-HZfWKBFTzkTQSqxxpLL55IfVoUpGs4qa\/st8qVFU\/mc=",
+      "url": "ex\/b_single_arm_lat_pulldown.svg"
+    },
+    {
+      "hash": "sha256-1eXNZ\/8p0J\/Ei2+hiGKtheClRkE3Hf3KuMBfn9nqaX8=",
+      "url": "ex\/b_single_arm_lateral_raise_cable.svg"
+    },
+    {
+      "hash": "sha256-GoYL6O4pi8y0rb2Mszp6O1YeU2ZrXxjVqDDcLus5Ssc=",
+      "url": "ex\/b_single_arm_triceps_extension_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-EJCXa0jtLXk\/lsY\/pMBOlNwGAv8HOobEMQiUJlQ3zng=",
+      "url": "ex\/b_single_arm_triceps_pushdown_cable.svg"
+    },
+    {
+      "hash": "sha256-jgMYHeCHR\/qXSuoUORtTDDx7FMsEBLWWTxZfg40ylKI=",
+      "url": "ex\/b_single_leg_extensions.svg"
+    },
+    {
+      "hash": "sha256-jO1t93I09TjbyVuZAtVIjlKr57ANisoljnD3a3s89pI=",
+      "url": "ex\/b_single_leg_glute_bridge.svg"
+    },
+    {
+      "hash": "sha256-ocQT8Hx7bV53qSVNjvdmgkxUoF6fOkmkNsreVF5Ccvg=",
+      "url": "ex\/b_single_leg_hip_thrust_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-k7APIlkKsuuf+cE+EEmQtRolYpYUP7xqRMBjp6CqnFo=",
+      "url": "ex\/b_single_leg_hip_thrust.svg"
+    },
+    {
+      "hash": "sha256-XONC+w1NV1vEi\/b24j\/vI863PJEN9KxFy4riRTheyos=",
+      "url": "ex\/b_single_leg_press_machine.svg"
+    },
+    {
+      "hash": "sha256-\/QpiUYE7GyMunXn7BGxX4bGafD8qpbE+8ejx7m4cxoQ=",
+      "url": "ex\/b_single_leg_romanian_deadlift_barbell.svg"
+    },
+    {
+      "hash": "sha256-5oLTok7DvSAxvY6zVOc6gKxjZGo6I85G9F04nuWe880=",
+      "url": "ex\/b_single_leg_romanian_deadlift_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-Fq6XFQ+ViucxxofXzM4MhU4LMPoFaPVQkHUXv7s4pLs=",
+      "url": "ex\/b_single_leg_standing_calf_raise_barbell.svg"
+    },
+    {
+      "hash": "sha256-MQRJG3SpcI1SWyOOr6OajfgNnZ1wW0C2ttzUxXeV\/K8=",
+      "url": "ex\/b_single_leg_standing_calf_raise_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-O213vvsTvI+BHlzT4fJAYlDcfY+TuQ94kl0zllAtq8M=",
+      "url": "ex\/b_single_leg_standing_calf_raise_machine.svg"
+    },
+    {
+      "hash": "sha256-WnQnHGAminIV1IQwPKQE8enmIgk1re0Ev1kexNG7xTk=",
+      "url": "ex\/b_single_leg_standing_calf_raise.svg"
+    },
+    {
+      "hash": "sha256-8tL0F+DyaEYmF5K0JPcAGtXP2M2xtn59rIhJ6QM+MIk=",
+      "url": "ex\/b_sissy_squat_weighted.svg"
+    },
+    {
+      "hash": "sha256-fLrwCuiHlNO23Ct31mJVJesh7d43H+1bdsCKUrQYbbQ=",
       "url": "ex\/b_sissy_squat.svg"
     },
     {
-      "hash": "sha256-Yfld\/9URABrIoWASQvNKch\/FCGZ\/yCFZOroYgX\/bzYU=",
+      "hash": "sha256-lNlzIDnvBkt7WAhVLDteomGbFZ4QAJPL0rI\/KnH4kQg=",
+      "url": "ex\/b_sit_up_weighted.svg"
+    },
+    {
+      "hash": "sha256-n2+t7NtbGWwNslzZEWEuV3\/MCoAOcZkURy1t1Pzs6rg=",
       "url": "ex\/b_sit_up.svg"
     },
     {
-      "hash": "sha256-FT0jBR22xTm8oxXdcsn4HYFkBrrHvPzSZLgrfHFP4M8=",
+      "hash": "sha256-RXJ5Rtu2LP+errhXX4i6qOd1hhza2UEKFVf8KFohlIQ=",
+      "url": "ex\/b_skating.svg"
+    },
+    {
+      "hash": "sha256-IZj23vRlVfpB0JPKp8l\/zAXyh1DW2hGcF+rvgViSY3M=",
+      "url": "ex\/b_ski_erg.svg"
+    },
+    {
+      "hash": "sha256-RXJ5Rtu2LP+errhXX4i6qOd1hhza2UEKFVf8KFohlIQ=",
+      "url": "ex\/b_skiing.svg"
+    },
+    {
+      "hash": "sha256-luJseIFnhvZplOJh2BRhy96R51JkdZwUR7dN6euV4ng=",
       "url": "ex\/b_skullcrusher_db.svg"
     },
     {
-      "hash": "sha256-\/JzMJZddkMVA4j6+gshtAlfQ+i4Ks99DbwIH9qnKQK0=",
+      "hash": "sha256-LbuZdC\/PYCe340ePpboS9wv2c3fEdW3wIU6kXbv9FaU=",
       "url": "ex\/b_skullcrusher.svg"
     },
     {
-      "hash": "sha256-jT3LRjdRFNWOdGPEvbY4a0bTDL\/RpcxcQB97bEKcuWQ=",
+      "hash": "sha256-tc30IBqmg5N76Xn1BjeihtVpR6ZGw\/NtADrffQYOWz4=",
+      "url": "ex\/b_sled_pull.svg"
+    },
+    {
+      "hash": "sha256-BiiHHs3NU2Kk2uFwi1uaVpUKYtzZvXcdx9Bi38NixfU=",
       "url": "ex\/b_sled_push.svg"
     },
     {
-      "hash": "sha256-AC95ICd679Q5VIz75dUzQ88ZsAjOe1BqNkf+C5RRtVw=",
+      "hash": "sha256-2Yk3eYRY+nvUibYgVuShIBdZHuyKccs4WQ2HwOQMwOM=",
       "url": "ex\/b_snatch.svg"
     },
     {
-      "hash": "sha256-Hgz\/tFdSWWWQZKOkIpD+vFJgomOp0aPTULHSqhOK6mc=",
+      "hash": "sha256-RXJ5Rtu2LP+errhXX4i6qOd1hhza2UEKFVf8KFohlIQ=",
+      "url": "ex\/b_snowboarding.svg"
+    },
+    {
+      "hash": "sha256-sYNUaVwUtXuVrWIV2VltC9fVieJ6rOqsGvXQuDILCrw=",
+      "url": "ex\/b_spider_curl_barbell.svg"
+    },
+    {
+      "hash": "sha256-LX1aytDp2fo8LcTWb7fhMwCqZRLbTHYsoyzKyJZEvNM=",
       "url": "ex\/b_spider_curl.svg"
     },
     {
-      "hash": "sha256-Q+97QVySb4ddcwsnF99caGP87N2IjCnsjK3qqY1y4K8=",
+      "hash": "sha256-uz1Vlsq4bCUfiMicW8XZZYjZYkj\/7mzYZD\/Sgje+tIA=",
+      "url": "ex\/b_spiderman.svg"
+    },
+    {
+      "hash": "sha256-XVmLsNUtq2Gxirr4K9rXlRXkc\/PfZG0CSJKyPD4oRtA=",
+      "url": "ex\/b_spinning.svg"
+    },
+    {
+      "hash": "sha256-UYWpzy3XoV6Sfb2yeELd8\/qa4cfcadtyeO6RV+cbPYQ=",
+      "url": "ex\/b_split_jerk.svg"
+    },
+    {
+      "hash": "sha256-OpzptgOtB3pVwIgeY0dxqwheTpWIoKvHMpPW11h6Pe8=",
+      "url": "ex\/b_split_squat_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-RXJ5Rtu2LP+errhXX4i6qOd1hhza2UEKFVf8KFohlIQ=",
+      "url": "ex\/b_sprints.svg"
+    },
+    {
+      "hash": "sha256-f9TJ4Qc4KsxT8pE7LFQEulC0buQ178t2E2FvNZlg+Y8=",
+      "url": "ex\/b_squat_band.svg"
+    },
+    {
+      "hash": "sha256-1ydx7pCTpuJ+hjOq4ExoDHarEvxo1aJzgJsGsmGipls=",
       "url": "ex\/b_squat_bb.svg"
     },
     {
-      "hash": "sha256-i\/Rg7xv5xiKtMq2UD0GtaAMFrF4MyffyGwUUVW2KExo=",
+      "hash": "sha256-H88\/HhuLVLnJPWnNx9NwUDdvH1Y64F0wL7xv8gc8BtE=",
       "url": "ex\/b_squat_bw.svg"
     },
     {
-      "hash": "sha256-xAYG5ao8uW5\/YQ4fXfXPWO2BY2zbRJtKnxN1utzNHJQ=",
+      "hash": "sha256-vJna09O7kE3NrLnP07o\/dyhAIpJ9lV6B0ewdFHI45Ig=",
+      "url": "ex\/b_squat_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-F1bBH\/IydJWkuBE7zQ6tb\/SAe9EFwJtA8cpPIrsX9o8=",
+      "url": "ex\/b_squat_machine.svg"
+    },
+    {
+      "hash": "sha256-fGL2QdqC7HldqweMI0GkyNOpyCebwdhZT5ReoBkNzLo=",
+      "url": "ex\/b_squat_row.svg"
+    },
+    {
+      "hash": "sha256-gzagMefE2l+sBEhitglBijzbxM3dDELXh8tQSSw+X6Y=",
       "url": "ex\/b_squat_smith.svg"
     },
     {
-      "hash": "sha256-RhZngLQjr0kdiOOkG0dqUAGKNZyaNaC8DzrO6h43nA8=",
+      "hash": "sha256-seloFVhEPWf106wEjYzuoY2eH6UxKO7jmx2smp1aLp0=",
+      "url": "ex\/b_squat_suspension.svg"
+    },
+    {
+      "hash": "sha256-jZYFCrXGvyIij8vLY+avYoHtV7D7GQAvu3F55eR98P0=",
+      "url": "ex\/b_stair_machine_floors.svg"
+    },
+    {
+      "hash": "sha256-jZYFCrXGvyIij8vLY+avYoHtV7D7GQAvu3F55eR98P0=",
       "url": "ex\/b_stair_machine.svg"
     },
     {
-      "hash": "sha256-0c8OYJ9sDGY3taDGdNhO4lSlpfhOiWFKJRVRh7bNl2E=",
+      "hash": "sha256-g2GVz54pBSJg1+RYaO+h5PEeEiNTO8DXV55EJooLTRM=",
+      "url": "ex\/b_standing_cable_y_raise.svg"
+    },
+    {
+      "hash": "sha256-OZfL99UutBWPBq6yHv8zoV\/TwSzITPszkFh7ig\/yaos=",
+      "url": "ex\/b_standing_calf_raise_barbell.svg"
+    },
+    {
+      "hash": "sha256-GxwN44Hge\/bW2x4dgHr6v+f8\/jF9J22nM5l0YGZQmMk=",
+      "url": "ex\/b_standing_calf_raise_smith.svg"
+    },
+    {
+      "hash": "sha256-G5idhtpiMvKTGIk44hte+wty9sYrHF\/M3Eq2LVQrjHY=",
+      "url": "ex\/b_standing_leg_curls.svg"
+    },
+    {
+      "hash": "sha256-Cys8H3qrGg4ZD0eZhg2u6bW9VcqR+iM\/rWI0Ji4wbJQ=",
+      "url": "ex\/b_standing_military_press_barbell.svg"
+    },
+    {
+      "hash": "sha256-BP8eZkRXhDlTlUgDMigbH4gdhqqjbfG97bQ9pOXHrQc=",
+      "url": "ex\/b_step_up_2.svg"
+    },
+    {
+      "hash": "sha256-fHbEGMsYh0hTfo05HdrRqp3fEPTEW8pj\/L2MawGls60=",
       "url": "ex\/b_step_up.svg"
     },
     {
-      "hash": "sha256-g2Oj3X9Ph5iQFVFPe6EmiUl9AtexpCx\/MCRb8vN0eYo=",
+      "hash": "sha256-iqJ52jZ4mUoqTaabqxhK6+NCw1i5\/DKnQjjPMxZ1qt8=",
+      "url": "ex\/b_sternum_pull_up_gironda.svg"
+    },
+    {
+      "hash": "sha256-yojKtQWCshnBcIXFhumT54ND4G84\/MqYRiElB4tWHs4=",
       "url": "ex\/b_stiff_leg_dl.svg"
     },
     {
-      "hash": "sha256-JIEsa7Rt9f8oTesrpQKhSJ3U+dEeiJKHuK3a0ycbR0g=",
+      "hash": "sha256-rIG1ah+dTqvkGlQBJ5euCHdVbJcHorgrh4zBvX84+iI=",
       "url": "ex\/b_straight_arm_pulldown.svg"
     },
     {
-      "hash": "sha256-ejkOUdUgRAEkg0W29nPZCO1celwB4aPpEYyb1M\/zAok=",
+      "hash": "sha256-Ym6qhc7lW3fD08Rno4S0idcJ6qQiRUusaGyHXLEx6NI=",
+      "url": "ex\/b_stretching.svg"
+    },
+    {
+      "hash": "sha256-kDmM\/0sAWkjRyX844epXz8P3V3onloeu48L7J1Dp4uw=",
+      "url": "ex\/b_suitcase_carry.svg"
+    },
+    {
+      "hash": "sha256-h4lITFSST6ZKlNe\/6cTHBozRUqjYEMF+Y8swlM4N6VA=",
       "url": "ex\/b_sumo_deadlift.svg"
     },
     {
-      "hash": "sha256-GA9vY9o3RgXrRJxJ4g1bZ3eC\/4We\/EWw9ZbTTc4Ssmk=",
+      "hash": "sha256-mEhzt7XllCG6CawuxoQoJhOGZ13XMvs4GrA6dewEQNs=",
+      "url": "ex\/b_sumo_squat_barbell.svg"
+    },
+    {
+      "hash": "sha256-ecaI1NVQZu8WMYNQu7J64Ju58bl5tziDkpyKyaEqkDw=",
+      "url": "ex\/b_sumo_squat_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-rBrlopY0CioLD15YXvi3ziMleVke6FOSk1SY12vO4jk=",
+      "url": "ex\/b_sumo_squat_kettlebell.svg"
+    },
+    {
+      "hash": "sha256-KMkzRcXeU0LQW0dORYy7gf6CnTc74C65QPY\/xs\/N15Y=",
+      "url": "ex\/b_sumo_squat.svg"
+    },
+    {
+      "hash": "sha256-Xgj4EQnVn0w2o2BW3YnQd3kIUKlVOP+9Z5+zRXGcWOA=",
       "url": "ex\/b_superman.svg"
     },
     {
-      "hash": "sha256-kCd4YhhfCpLoTh8Te\/SNndR8WjSCUCXiqf0WCr\/I84g=",
+      "hash": "sha256-wkYHQYMR2h83ShVEC8X+xqPgyYWk0IRI\/y2SUoz54S8=",
       "url": "ex\/b_swimming.svg"
     },
     {
-      "hash": "sha256-IX3OzqgvnXRDu7PZLGq1c5bTRQch3JgZaOkcbzUAKwA=",
+      "hash": "sha256-aEHDXULvYC11QTXSlkONH7j9JrsI+MX2e\/PFljayl\/4=",
       "url": "ex\/b_t_bar_row.svg"
     },
     {
-      "hash": "sha256-lwA4ut3qmbSqPPfvt5E3mTRVnGEEnePS16\/\/sm0CfuM=",
+      "hash": "sha256-pO99SPiOW0b7xDe7KAn3X0eyKiXDgYT1jJN\/BfwukvE=",
+      "url": "ex\/b_thruster_kettlebell.svg"
+    },
+    {
+      "hash": "sha256-3TJq8JBmY4lJcCKOUnsRxZWOcTMPAnvveh+KlLnyrcI=",
       "url": "ex\/b_thruster.svg"
     },
     {
-      "hash": "sha256-vwZFLNMfv6u7nRAeivAixloQRCSYqsmfBIvdzBE7zhA=",
+      "hash": "sha256-2LjPXqtLDOVfJc6Mu+is0qla8N9gvdzJgBIH9cYiBac=",
+      "url": "ex\/b_toe_touch.svg"
+    },
+    {
+      "hash": "sha256-Gtde9HARRNSkRcsn3sAgX0a2FAFtrWReS0HxywI3e3M=",
+      "url": "ex\/b_toes_to_bar.svg"
+    },
+    {
+      "hash": "sha256-QSyXOPM+ekdWLXQW61061V2k51mKufKhOtBzaELMtWU=",
+      "url": "ex\/b_torso_rotation.svg"
+    },
+    {
+      "hash": "sha256-WUG+x3TDa+So+sCIPAjjun40vDgjirFiDp7SmRiOHrY=",
       "url": "ex\/b_trap_bar_deadlift.svg"
     },
     {
-      "hash": "sha256-2yW5xm4xI+5Tz1qYOO4T5D1QPwy691eHVNUS78KY+Pc=",
+      "hash": "sha256-q7\/xIui7Pk2d6IT8TdlcdaAbZuhOEO+kZcVEaMuva7c=",
       "url": "ex\/b_treadmill.svg"
     },
     {
-      "hash": "sha256-5RyOgcNEuz\/aB\/y7qs\/ueip\/W8l759hZk3ZlsT+7nOY=",
+      "hash": "sha256-XFdkBPJzCRQlBNzDStjqOm7R+Rnm\/JfNjKON+qcaKms=",
+      "url": "ex\/b_triceps_dip_assisted.svg"
+    },
+    {
+      "hash": "sha256-\/s7o6xtECDaf6fD4FKevVTIboThUs1u2rwbkPwTrZTs=",
+      "url": "ex\/b_triceps_dip_weighted.svg"
+    },
+    {
+      "hash": "sha256-AyuST4kaL56ZwNq9Pg6kAU2sfkbLcNjaM0f5QLZ9CE8=",
       "url": "ex\/b_triceps_dip.svg"
     },
     {
-      "hash": "sha256-6Vj0rK9WwesDs2GhbmMWWq2zYGLfEwQ0ItTcfRvLYy0=",
+      "hash": "sha256-f0\/ewFMqts+Bfpk+GIH0+zGvWnN0ktxKcbZYu\/Ai41E=",
       "url": "ex\/b_triceps_ext_machine.svg"
     },
     {
-      "hash": "sha256-55vc0zEKmHiTC3XBtmKGCNWmmwSa\/gCEZTrX52yxtN8=",
+      "hash": "sha256-uD1NPDDiN9mAnVc8zfjHlP2FuzH30ciqFy2G5X9rGWc=",
+      "url": "ex\/b_triceps_extension_barbell.svg"
+    },
+    {
+      "hash": "sha256-M9pXbrOtHL\/nOV\/5irb5GLGGVusmTJ5BEL5Ooey3SkA=",
+      "url": "ex\/b_triceps_extension_cable.svg"
+    },
+    {
+      "hash": "sha256-uBBOz817e4mq13cp6Vqxet\/An1fVwznFiRorfUMNKDU=",
+      "url": "ex\/b_triceps_extension_suspension.svg"
+    },
+    {
+      "hash": "sha256-4cG7+QjnK\/P1j1UCJPnp8JTYRMA3oqi4bgwDk6gLD0U=",
+      "url": "ex\/b_triceps_kickback_cable.svg"
+    },
+    {
+      "hash": "sha256-a7UMV9BmH78mBDjTE\/bS7JPknLTkdw6ZjNuv0VvANCE=",
+      "url": "ex\/b_triceps_pressdown.svg"
+    },
+    {
+      "hash": "sha256-EJCXa0jtLXk\/lsY\/pMBOlNwGAv8HOobEMQiUJlQ3zng=",
       "url": "ex\/b_triceps_pushdown.svg"
     },
     {
-      "hash": "sha256-L\/pgUhtOPUrzSZOYX0kgumo0qAOSL4JoQ0Py+cYWQzg=",
+      "hash": "sha256-a7UMV9BmH78mBDjTE\/bS7JPknLTkdw6ZjNuv0VvANCE=",
       "url": "ex\/b_triceps_rope.svg"
     },
     {
-      "hash": "sha256-PmNXTxBKtXdknJS+SOypxIw+ymEn1xfY7zWCTQrsIro=",
+      "hash": "sha256-9gwPm3OWnHVo+ZK8eXKDHnbZ5l2ZBpOrbAp74jyBhko=",
       "url": "ex\/b_turkish_get_up.svg"
     },
     {
-      "hash": "sha256-tZzP0ABLb\/PEhsyci9f2BdvuI2ZHHX5hnCmQJZhSaLw=",
+      "hash": "sha256-54UOqwAOGvHHpf9dNjLl4YRhsr4PzUSVaXhLB\/8smys=",
+      "url": "ex\/b_upright_row_cable.svg"
+    },
+    {
+      "hash": "sha256-Hf5mmgA2CqQHnUFAVpi1ClWTdOSSqTGFclvu\/7R1sAo=",
+      "url": "ex\/b_upright_row_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-ORzAgMhKJofQwSKqdEXutw1FIqShP50Rbl+eu0NjvOg=",
       "url": "ex\/b_upright_row.svg"
     },
     {
-      "hash": "sha256-H+oP0WFsekX2rmDsJeEB44mvK4tWDEWt4zk89N9W8Y4=",
+      "hash": "sha256-QkmlpZipQC2\/E92d9w8EC\/BAE4apvfrEXac5rfca\/F0=",
+      "url": "ex\/b_v_up.svg"
+    },
+    {
+      "hash": "sha256-PwcQmHNSrV03RFefo+E\/PDLUekLBMf66P0kpTF6ecBk=",
+      "url": "ex\/b_vertical_traction_machine.svg"
+    },
+    {
+      "hash": "sha256-q8zeY+CH\/Qtpa1nWF3TWw8sYPdf1oJbQiUyuEja41Yw=",
+      "url": "ex\/b_waiter_curl_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-GfonTFd+guJxf1cCNug0AB\/86L1cY3lCyhs8ts4lik4=",
+      "url": "ex\/b_walking_lunge_2.svg"
+    },
+    {
+      "hash": "sha256-rC9jXMmL7VkSMfo7SOXG2ZW5UQRVN1CuHIs\/jd0VTKU=",
+      "url": "ex\/b_walking_lunge_sandbag.svg"
+    },
+    {
+      "hash": "sha256-OpzptgOtB3pVwIgeY0dxqwheTpWIoKvHMpPW11h6Pe8=",
       "url": "ex\/b_walking_lunge.svg"
     },
     {
-      "hash": "sha256-tRx6bXaw4B\/98m5yyxZ1aH8JYGuRGDRGi1YZV6Beav0=",
+      "hash": "sha256-hJIcr0Xu28Utms0PlJEhzE\/iJprLcybnO8OSUSJsR+M=",
       "url": "ex\/b_walking.svg"
     },
     {
-      "hash": "sha256-KQdIyLyeFV4uZFnxwJJOwO5L2zoLV7rwvjgltLVUVrw=",
+      "hash": "sha256-usPLNmA41n4fjgK5Yl7cfe6CsMi4EYkte5ps\/xrjtcU=",
+      "url": "ex\/b_wall_ball.svg"
+    },
+    {
+      "hash": "sha256-nEi4iynCBt9LLPvZ07wxPxWw+NUHw8pUjlhUP2c4fG0=",
       "url": "ex\/b_wall_sit.svg"
     },
     {
-      "hash": "sha256-VvRQG+FrRW86iD\/kl42l9U501zbDFBNKA5c\/GxbazDQ=",
+      "hash": "sha256-EQP+0dtXlu\/Af3goOCGyxLQP5uIb4Ifg7SEEK71V\/yU=",
+      "url": "ex\/b_warm_up.svg"
+    },
+    {
+      "hash": "sha256-FFlNkU1DdGstO7JkgjemPj\/gn1qhGsJ1XF1Tl3Nnz+g=",
+      "url": "ex\/b_wide_elbow_triceps_press_dumbbell.svg"
+    },
+    {
+      "hash": "sha256-927dEq39CvDM2dIvS3F36EjJ0Zz29RtuhU8dyO0UihE=",
+      "url": "ex\/b_wide_pull_up.svg"
+    },
+    {
+      "hash": "sha256-4kvF6v02j7Nohg37MXtz0baO6a+nYqqihC9i1Upw1t0=",
       "url": "ex\/b_woodchopper.svg"
     },
     {
-      "hash": "sha256-WcacCB3T+UmZF3+ETXCULy\/YDAqGmgoXBLthCKQKULE=",
+      "hash": "sha256-dTGWxtbQIkyY30QSz\/+rkiZOxKybuk7MYff2wYo5mTU=",
       "url": "ex\/b_wrist_curl.svg"
+    },
+    {
+      "hash": "sha256-lMVFPJFiBP8W8itmp8iLKunCCIvjAtjKYjiS6CCX5+Q=",
+      "url": "ex\/b_wrist_roller.svg"
+    },
+    {
+      "hash": "sha256-9bygbHmmOOPgz+a2tYbLY8NfPZWVZess+rp8USB4tqM=",
+      "url": "ex\/b_yoga.svg"
+    },
+    {
+      "hash": "sha256-HSmKKrV3QHciVmTu\/4OQLk6qgTYcksmZoqRJontxsxo=",
+      "url": "ex\/b_zercher_squat.svg"
+    },
+    {
+      "hash": "sha256-jaZmruM53qNeyPyZ3PtNDdP7cOq84fjfRi7UcDR1Kgc=",
+      "url": "ex\/b_zottman_curl_dumbbell.svg"
     },
     {
       "hash": "sha256-f9m8WAMuP64fKhN2rR0C5OvErWw9y0kN0tlCutt8XJE=",
@@ -901,11 +1973,11 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-zBvP7YoUJPMxUTqaoYwA606LqyAqZzEmukzAIWzO2eA=",
+      "hash": "sha256-jAC7dizvmQxWlXJk1wE9xDXHvPS2IgV\/GD01ZiggaWQ=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-ashuxHjW6X202yimEWknSBWdPMpgf1CRwZ9rY4o5nJw=",
+      "hash": "sha256-bQx9ATrTUcIufJFjzgV0e0zEbxFZqmkTfb+QQbD\/E0E=",
       "url": "js\/gym.js"
     },
     {
@@ -913,5 +1985,5 @@
       "url": "manifest.webmanifest"
     }
   ],
-  "version": "7RgzE3GN"
+  "version": "r8cnf4db"
 };
