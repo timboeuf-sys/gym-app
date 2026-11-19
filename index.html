@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Gym-App" />
+    <meta name="theme-color" content="#111214" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Gym-App</title>
+    <base href="./" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link href="manifest.webmanifest" rel="manifest" />
+</head>
+<body>
+    <div id="app">
+        <div class="boot">
+            <img src="icon-192.png" alt="" width="84" height="84" />
+            <div class="boot-title">Gym-App</div>
+            <div class="boot-sub">wird geladen …</div>
+        </div>
+    </div>
+    <div id="blazor-error-ui">
+        Es ist ein Fehler aufgetreten. <a href="" class="reload">Neu laden</a>
+    </div>
+    <script src="js/gym.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js').then(reg => gym.watchUpdates(reg)).catch(() => { });
+        }
+    </script>
+</body>
+</html>
