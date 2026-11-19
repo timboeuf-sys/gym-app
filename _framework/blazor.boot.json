@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "GymApp.Web",
   "resources": {
-    "hash": "sha256-Vxf/kzb7CvqT115F/M7rJs0hg3QAjPJ6M58Eur5xzTw=",
+    "hash": "sha256-EuXCoCxWtsrqyJeCtEYWcOL5iIRhcAgtmKyGBy4njeg=",
     "jsModuleNative": {
       "dotnet.native.8.0.34.cism9v9sh3.js": "sha256-Uc+HxggmSGuU1CkPjbVFhBiqRQ6cUsH1lnQ1keONjkE="
     },
@@ -16,7 +16,7 @@
     },
     "assembly": {
       "GymApp.Core.wasm": "sha256-yQKlX8yDUsHG34xFDUMNU9uTadfmikhxkrz24kRUM/U=",
-      "GymApp.Web.wasm": "sha256-YJBpHKzT/rbKly1yZ72Bpt5rI/7FoAEyVQt2N/3XClQ=",
+      "GymApp.Web.wasm": "sha256-RPeRjORRi5vIWWUfUdWDXQ7nSnJ6cejDYcBJ+TfAWEI=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-pKOO5NSKKJY5RFp7jDVeJVG1kjg7pyHVIMwd0MmajQI=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-k30Wm9N+TY4Cgrq+M7dCMI8OCIGAyIG46CdDOHmjrag=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-pd6/Lab1xOxLQQWO4updpXqTd+e186uCNMy3S3wIcs8=",

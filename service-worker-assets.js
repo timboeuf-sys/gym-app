@@ -25,7 +25,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-BEW5fFR69bXzryjzCeBExuWRbZEOiqZuiqHFt7GjGDA=",
+      "hash": "sha256-FtSELInN8Dw8PfIKweZ+siGuHcs2NaKunDLWj6eVVr0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -33,7 +33,7 @@
       "url": "_framework\/GymApp.Core.wasm"
     },
     {
-      "hash": "sha256-YJBpHKzT\/rbKly1yZ72Bpt5rI\/7FoAEyVQt2N\/3XClQ=",
+      "hash": "sha256-RPeRjORRi5vIWWUfUdWDXQ7nSnJ6cejDYcBJ+TfAWEI=",
       "url": "_framework\/GymApp.Web.wasm"
     },
     {
@@ -913,5 +913,5 @@
       "url": "manifest.webmanifest"
     }
   ],
-  "version": "ksMq8oNL"
+  "version": "C\/g8xoIA"
 };
