@@ -163,7 +163,112 @@ window.gym = (function () {
 
     // ---- Sonstiges
     let dotnetRef = null;
-    function register(ref) { dotnetRef = ref; }
+    function register(ref) { dotnetRef = ref; initGestures(); }
+
+    // ---- Gesten wie bei iOS: vom linken Rand zurückwischen, Sheets nach unten ziehen
+    let gesturesReady = false;
+    function initGestures() {
+        if (gesturesReady) return; gesturesReady = true;
+        const EDGE = 28, EASE = 'cubic-bezier(.2,.8,.2,1)';
+        let sw = null, sh = null;
+        const clear = el => { if (!el) return; el.style.transition = ''; el.style.transform = ''; el.style.filter = ''; el.style.boxShadow = ''; };
+
+        document.addEventListener('touchstart', e => {
+            if (e.touches.length !== 1) return;
+            const t = e.touches[0];
+            // Sheet am oberen Rand greifen
+            const panel = e.target.closest && e.target.closest('.sheet-panel');
+            if (panel) {
+                const r = panel.getBoundingClientRect();
+                if (t.clientY - r.top < 38) sh = { panel, y0: t.clientY, y: t.clientY, hist: [[performance.now(), t.clientY]], on: false };
+                return;
+            }
+            const app = document.querySelector('.app');
+            if (!app || app.dataset.back !== '1' || t.clientX > EDGE) return;
+            sw = { x0: t.clientX, y0: t.clientY, x: t.clientX, hist: [], phase: 'wait' };
+        }, { passive: true });
+
+        document.addEventListener('touchmove', e => {
+            const t = e.touches[0];
+            if (sh) {
+                const dy = t.clientY - sh.y0;
+                if (!sh.on && dy > 6) sh.on = true;
+                if (!sh.on) return;
+                e.preventDefault();
+                sh.y = t.clientY; sh.hist.push([performance.now(), t.clientY]); if (sh.hist.length > 6) sh.hist.shift();
+                sh.panel.style.transition = 'none';
+                sh.panel.style.transform = `translateY(${Math.max(0, dy)}px)`;
+                return;
+            }
+            if (!sw) return;
+            const dx = t.clientX - sw.x0, dy = t.clientY - sw.y0;
+            if (sw.phase === 'wait') {
+                if (Math.abs(dy) > 10 && Math.abs(dy) > Math.abs(dx)) { sw = null; return; }
+                if (!(dx > 8 && dx > Math.abs(dy))) return;
+                let ok = false; try { ok = dotnetRef.invokeMethod('SwipeBegin'); } catch (_) { }
+                if (!ok) { sw = null; return; }
+                sw.phase = 'drag'; sw.w = window.innerWidth; sw.cur = document.getElementById('page');
+            }
+            e.preventDefault();
+            sw.x = t.clientX; sw.hist.push([performance.now(), t.clientX]); if (sw.hist.length > 6) sw.hist.shift();
+            const d = Math.max(0, dx), p = Math.min(1, d / sw.w);
+            if (sw.cur) { sw.cur.style.transition = 'none'; sw.cur.style.transform = `translateX(${d}px)`; sw.cur.style.boxShadow = '-12px 0 32px rgba(0,0,0,.38)'; }
+            const pk = document.getElementById('page-peek');
+            if (pk) { pk.style.transition = 'none'; pk.style.transform = `translateX(${-28 + 28 * p}%)`; pk.style.filter = `brightness(${0.72 + 0.28 * p})`; }
+        }, { passive: false });
+
+        const speed = h => { if (h.length < 2) return 0; const a = h[0], b = h[h.length - 1]; return (b[1] - a[1]) / Math.max(1, b[0] - a[0]); };
+
+        const end = () => {
+            if (sh) {
+                const s = sh; sh = null;
+                if (!s.on) return;
+                const dy = s.y - s.y0, v = speed(s.hist);
+                if (dy > 110 || (v > 0.55 && dy > 30)) {
+                    const bd = s.panel.closest('.ov-backdrop');
+                    s.panel.style.transition = `transform .24s ${EASE}`;
+                    s.panel.style.transform = 'translateY(100%)';
+                    if (bd) bd.click();
+                } else {
+                    s.panel.style.transition = `transform .3s cubic-bezier(.3,1.3,.5,1)`;
+                    s.panel.style.transform = 'translateY(0)';
+                    setTimeout(() => clear(s.panel), 320);
+                }
+                return;
+            }
+            if (!sw) return;
+            const s = sw; sw = null;
+            if (s.phase !== 'drag') return;
+            const dx = s.x - s.x0, v = speed(s.hist);
+            let commit = dx > s.w * 0.33 || (v > 0.45 && dx > 30);
+            if (commit) { try { commit = dotnetRef.invokeMethod('SwipeCheck'); } catch (_) { commit = false; } }
+            const cur = s.cur, pk = document.getElementById('page-peek');
+            const tr = `transform .3s ${EASE}, filter .3s ${EASE}`;
+            if (cur) { cur.style.transition = tr; cur.style.transform = commit ? 'translateX(100%)' : 'translateX(0)'; }
+            if (pk) { pk.style.transition = tr; pk.style.transform = commit ? 'translateX(0)' : 'translateX(-28%)'; pk.style.filter = commit ? 'brightness(1)' : 'brightness(.72)'; }
+            setTimeout(() => {
+                if (commit) { clear(document.getElementById('page-peek')); try { dotnetRef.invokeMethod('SwipeCommit'); } catch (_) { } }
+                else { clear(cur); try { dotnetRef.invokeMethod('SwipeCancel'); } catch (_) { } }
+            }, 310);
+        };
+        document.addEventListener('touchend', end);
+        document.addEventListener('touchcancel', end);
+    }
+
+    // ---- Gleitende Auswahl im Umschalter
+    function segPill(el, first) {
+        if (!el) return;
+        const pill = el.querySelector(':scope > .seg-pill'), on = el.querySelector(':scope > button.on');
+        if (!pill) return;
+        if (!on) { pill.style.opacity = '0'; return; }
+        const instant = first || !pill.dataset.ready;
+        if (instant) pill.style.transition = 'none';
+        pill.style.opacity = '1';
+        pill.style.width = on.offsetWidth + 'px';
+        pill.style.transform = `translateX(${on.offsetLeft}px)`;
+        if (instant) { void pill.offsetWidth; pill.style.transition = ''; pill.dataset.ready = '1'; }
+    }
+    function scrollTopSmooth(id) { const el = document.getElementById(id); if (el) el.scrollTo({ top: 0, behavior: 'smooth' }); }
     function isStandalone() { return !!(window.navigator.standalone || window.matchMedia('(display-mode: standalone)').matches); }
     function isIos() { return /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); }
     function scrollTop(id) { const el = document.getElementById(id); if (el) el.scrollTop = 0; }
@@ -195,5 +300,5 @@ window.gym = (function () {
         });
     }
     return { idbGet, idbSet, idbDel, loadBoth, persist, storageInfo, setWake, beep, shareFile, shareText, copyText, pickPhoto, getPhoto, openImage,
-        register, isStandalone, isIos, scrollTop, scrollBottom, getScroll, setScroll, setTheme, focus, blurActive, watchUpdates, applyUpdate };
+        register, isStandalone, isIos, segPill, scrollTopSmooth, scrollTop, scrollBottom, getScroll, setScroll, setTheme, focus, blurActive, watchUpdates, applyUpdate };
 })();

@@ -35,20 +35,23 @@ a { color: var(--accent); }
 #blazor-error-ui a { color: #fff; font-weight: 700; margin-left: 8px; }
 
 /* ---------- Grundlayout ---------- */
-.app { height: 100dvh; display: flex; flex-direction: column; max-width: 640px; margin: 0 auto; position: relative; background: var(--bg); }
-.page-host { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
-.page { padding: calc(var(--safe-top) + 14px) 16px calc(var(--dock, 28px) + var(--safe-bottom) + 10px); }
+.app { position: fixed; top: 0; bottom: 0; left: 0; right: 0; display: flex; flex-direction: column; max-width: 640px; margin: 0 auto; background: var(--bg); }
+.layers { position: relative; flex: 1; overflow: hidden; }
+.page-host { position: absolute; inset: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; background: var(--bg); will-change: transform; }
+.page-host.leaving, .page-host.peek { pointer-events: none; }
+.page-host.peek { transform: translateX(-28%); filter: brightness(.72); }
+.page { padding: calc(var(--safe-top) + 14px) 16px calc(var(--dock, 28px) + var(--safe-bottom)); }
 
 /* ---------- Unten schwebend: laufendes Training, Pause, Tabs ---------- */
-.dock { position: absolute; left: 0; right: 0; bottom: 0; padding: 0 12px calc(10px + var(--safe-bottom)); display: flex; flex-direction: column; gap: 8px; pointer-events: none; z-index: 30; }
+.dock { position: absolute; left: 0; right: 0; bottom: 0; padding: 0 12px max(8px, calc(var(--safe-bottom) - 14px)); display: flex; flex-direction: column; gap: 8px; pointer-events: none; z-index: 30; }
 .dock > * { pointer-events: auto; }
-.tabbar { display: flex; align-self: center; width: min(100%, 420px); padding: 6px; gap: 4px; border-radius: 32px;
+.tabbar { position: relative; display: flex; align-self: center; width: min(100%, 420px); padding: 6px; gap: 4px; border-radius: 32px;
     background: rgba(30,31,36,.9); -webkit-backdrop-filter: blur(20px) saturate(160%); backdrop-filter: blur(20px) saturate(160%);
     border: 1px solid rgba(255,255,255,.08); box-shadow: 0 10px 30px rgba(0,0,0,.45); }
 [data-theme=light] .tabbar { background: rgba(255,255,255,.92); border-color: rgba(0,0,0,.06); box-shadow: 0 8px 26px rgba(0,0,0,.14); }
 .tab { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 7px 0 6px; border-radius: 26px; color: var(--text); font-size: 12px; font-weight: 600; }
-.tab.on { color: var(--accent); background: rgba(255,255,255,.09); }
-[data-theme=light] .tab.on { background: rgba(59,130,246,.1); }
+.tab.on { color: var(--accent); }
+
 .mini-live { display: flex; align-items: center; gap: 10px; background: var(--accent); color: var(--on-accent); padding: 12px 18px; font-weight: 650; border-radius: 26px; box-shadow: 0 8px 24px rgba(0,0,0,.35); }
 .mini-live .grow { flex: 1; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .mini-live .clock { font-variant-numeric: tabular-nums; font-size: 17px; font-weight: 800; }
@@ -127,10 +130,12 @@ a { color: var(--accent); }
 .chip { padding: 7px 13px; border-radius: 18px; background: var(--surface2); border: 1px solid var(--line); font-size: 14px; font-weight: 600; white-space: nowrap; }
 .chip.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
 
-.seg { display: flex; background: var(--surface2); border: 1px solid var(--line); border-radius: 11px; padding: 3px; gap: 2px; overflow-x: auto; scrollbar-width: none; }
+.seg { position: relative; display: flex; background: var(--surface2); border: 1px solid var(--line); border-radius: 11px; padding: 3px; gap: 2px; overflow-x: auto; scrollbar-width: none; }
 .seg::-webkit-scrollbar { display: none; }
-.seg button { flex: 1; padding: 7px 10px; border-radius: 8px; font-size: 13.5px; font-weight: 650; white-space: nowrap; color: var(--text); }
-.seg button.on { background: var(--accent); color: var(--on-accent); }
+.seg button { position: relative; z-index: 1; flex: 1; padding: 7px 10px; border-radius: 8px; font-size: 13.5px; font-weight: 650; white-space: nowrap; color: var(--text); transition: color .25s; }
+.seg button.on { color: var(--on-accent); }
+.seg-pill { position: absolute; top: 3px; bottom: 3px; left: 0; width: 0; border-radius: 8px; background: var(--accent); z-index: 0; opacity: 0;
+    box-shadow: 0 2px 8px rgba(59,130,246,.35); transition: transform .42s cubic-bezier(.3,1.25,.45,1), width .42s cubic-bezier(.3,1.25,.45,1); }
 .seg.inline { display: inline-flex; }
 .seg.inline button { flex: 0 0 auto; }
 
@@ -201,15 +206,15 @@ select.inp { background-image: linear-gradient(45deg, transparent 50%, var(--mut
 .add-set { width: 100%; padding: 9px; margin-top: 6px; border-radius: 9px; background: var(--surface2); font-weight: 650; font-size: 14px; }
 
 /* ---------- Overlays ---------- */
-.ov-backdrop { position: fixed; inset: 0; background: var(--overlay); z-index: 50; display: flex; align-items: center; justify-content: center; padding: 20px; animation: fade .15s ease; }
+.ov-backdrop { position: fixed; inset: 0; background: var(--overlay); z-index: 50; display: flex; align-items: center; justify-content: center; padding: 20px; animation: fade .25s ease both; }
 .ov-backdrop.sheet { align-items: flex-end; padding: 0; }
-.dialog { background: var(--surface); border-radius: 18px; padding: 20px; width: 100%; max-width: 420px; border: 1px solid var(--line); max-height: 88dvh; overflow-y: auto; }
+.dialog { background: var(--surface); border-radius: 18px; padding: 20px; width: 100%; max-width: 420px; border: 1px solid var(--line); max-height: 88dvh; overflow-y: auto; animation: alertIn .32s cubic-bezier(.25,1.3,.4,1) both; }
 .dialog h2 { margin-bottom: 8px; }
 .dialog .msg { color: var(--muted); line-height: 1.45; white-space: pre-line; }
 .dialog .btns { display: flex; gap: 10px; margin-top: 18px; }
 .dialog .btns .btn { flex: 1; }
 .sheet-panel { background: var(--surface); width: 100%; max-width: 640px; border-radius: 18px 18px 0 0; padding: 10px 14px calc(16px + var(--safe-bottom));
-    max-height: 92dvh; overflow-y: auto; animation: up .2s ease; border-top: 1px solid var(--line); }
+    max-height: 92dvh; overflow-y: auto; animation: sheetUp .46s cubic-bezier(.2,.9,.22,1) both; border-top: 1px solid var(--line); }
 .sheet-panel.full { height: 94dvh; max-height: 94dvh; display: flex; flex-direction: column; }
 .grabber { width: 38px; height: 5px; border-radius: 3px; background: var(--surface3); margin: 0 auto 10px; }
 .sheet-title { font-weight: 700; font-size: 17px; text-align: center; margin-bottom: 4px; }
@@ -223,9 +228,9 @@ select.inp { background-image: linear-gradient(45deg, transparent 50%, var(--mut
 
 .toasts { position: fixed; top: calc(var(--safe-top) + 10px); left: 0; right: 0; z-index: 100; display: flex; flex-direction: column; align-items: center; gap: 8px; pointer-events: none; padding: 0 12px; }
 .toast { background: var(--surface3); border: 1px solid var(--line); border-radius: 14px; padding: 11px 14px; font-weight: 650; font-size: 14px; max-width: 520px;
-    display: flex; gap: 10px; align-items: center; box-shadow: 0 6px 24px rgba(0,0,0,.35); animation: drop .2s ease; }
+    display: flex; gap: 10px; align-items: center; box-shadow: 0 6px 24px rgba(0,0,0,.35); animation: drop .45s cubic-bezier(.25,1.4,.45,1) both; }
 .toast.gold { border: 2px solid var(--gold); }
-@keyframes drop { from { transform: translateY(-14px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes drop { from { transform: translateY(-26px) scale(.96); opacity: 0; } to { transform: none; opacity: 1; } }
 
 /* ---------- Diagramme ---------- */
 .chart { width: 100%; display: block; }
@@ -316,3 +321,69 @@ select.inp { background-image: linear-gradient(45deg, transparent 50%, var(--mut
 .dash-tile { display: flex; align-items: center; gap: 12px; padding: 16px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); font-weight: 700; font-size: 15.5px; text-align: left; }
 .dash-tile:active { background: var(--surface2); }
 .dash-tile svg { color: var(--accent); }
+
+/* ================= Animationen (wie iOS) ================= */
+/* Seitenwechsel: neue Seite schiebt sich von rechts herein, Zurück schiebt sie wieder hinaus */
+.nav-push .page-host.cur { z-index: 2; animation: navInR .46s cubic-bezier(.2,.86,.22,1) both; box-shadow: -12px 0 32px rgba(0,0,0,.38); }
+.nav-push .page-host.leaving { z-index: 1; animation: navOutL .46s cubic-bezier(.2,.86,.22,1) both; }
+.nav-pop .page-host.cur { z-index: 1; animation: navInL .42s cubic-bezier(.2,.86,.22,1) both; }
+.nav-pop .page-host.leaving { z-index: 2; animation: navOutR .42s cubic-bezier(.2,.86,.22,1) both; box-shadow: -12px 0 32px rgba(0,0,0,.38); }
+.nav-fade .page-host.cur { animation: navFade .28s ease-out both; }
+/* Training öffnen: kommt von unten wie ein Sheet */
+.nav-present .page-host.cur { z-index: 2; animation: navUp .5s cubic-bezier(.2,.9,.22,1) both; border-radius: 0; box-shadow: 0 -10px 40px rgba(0,0,0,.45); }
+.nav-present .page-host.leaving { z-index: 1; animation: navSink .5s cubic-bezier(.2,.9,.22,1) both; }
+.nav-dismiss .page-host.cur { z-index: 1; animation: navRise .44s cubic-bezier(.2,.9,.22,1) both; }
+.nav-dismiss .page-host.leaving { z-index: 2; animation: navDown .44s cubic-bezier(.2,.9,.22,1) both; }
+@keyframes navInR { from { transform: translateX(100%); } to { transform: none; } }
+@keyframes navOutL { from { transform: none; filter: brightness(1); } to { transform: translateX(-28%); filter: brightness(.72); } }
+@keyframes navInL { from { transform: translateX(-28%); filter: brightness(.72); } to { transform: none; filter: brightness(1); } }
+@keyframes navOutR { from { transform: none; } to { transform: translateX(100%); } }
+@keyframes navFade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes navUp { from { transform: translateY(100%); } to { transform: none; } }
+@keyframes navSink { from { transform: none; filter: brightness(1); } to { transform: scale(.94); filter: brightness(.6); } }
+@keyframes navRise { from { transform: scale(.94); filter: brightness(.6); } to { transform: none; filter: brightness(1); } }
+@keyframes navDown { from { transform: none; } to { transform: translateY(100%); } }
+
+/* Tab-Leiste: die Markierung gleitet federnd zum angetippten Tab */
+.tab-pill { position: absolute; top: 6px; bottom: 6px; left: 6px; width: calc((100% - 20px) / 3); border-radius: 26px; z-index: 0;
+    background: rgba(255,255,255,.1); box-shadow: inset 0 0 0 1px rgba(255,255,255,.06);
+    transform: translateX(calc(var(--ti, 0) * (100% + 4px))); transition: transform .55s cubic-bezier(.3,1.32,.4,1); }
+[data-theme=light] .tab-pill { background: rgba(59,130,246,.11); box-shadow: none; }
+.tab { position: relative; z-index: 1; transition: color .3s, transform .2s cubic-bezier(.3,1.6,.5,1); }
+.tab:active { transform: scale(.9); }
+.tab.on svg { animation: tabPop .5s cubic-bezier(.3,1.6,.45,1); }
+@keyframes tabPop { 0% { transform: scale(.82); } 55% { transform: scale(1.14); } 100% { transform: scale(1); } }
+
+/* Unten: Mini-Leiste und Pausentimer kommen von unten hoch */
+.dock > .mini-live, .dock > .restbar, .dock > .tabbar { animation: dockIn .45s cubic-bezier(.25,1.25,.45,1) both; }
+@keyframes dockIn { from { transform: translateY(26px); opacity: 0; } to { transform: none; opacity: 1; } }
+
+/* Sheets und Dialoge */
+@keyframes sheetUp { from { transform: translateY(100%); } to { transform: none; } }
+@keyframes sheetDown { to { transform: translateY(100%); } }
+@keyframes alertIn { from { transform: scale(1.12); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes alertOut { to { transform: scale(.94); opacity: 0; } }
+@keyframes fadeOut { to { opacity: 0; } }
+.ov-backdrop.closing { pointer-events: none; animation: fadeOut .26s ease forwards; }
+.ov-backdrop.closing .sheet-panel { animation: sheetDown .26s cubic-bezier(.4,0,.8,.4) forwards; }
+.ov-backdrop.closing .dialog { animation: alertOut .2s ease forwards; }
+.grabber { cursor: grab; }
+
+/* Antippen: Buttons federn leicht */
+.btn, .chip, .dash-tile, .mini-live, .ibtn, .check, .post-acts .ibtn { transition: transform .22s cubic-bezier(.3,1.7,.5,1), background-color .25s, color .25s, opacity .15s; }
+.btn:active, .chip:active, .dash-tile:active, .mini-live:active { transform: scale(.96); opacity: .9; }
+.ibtn:active { transform: scale(.86); }
+.check:active { transform: scale(.82); }
+.set-r { transition: background-color .3s ease; }
+.chip { transition: background-color .25s, border-color .25s, color .25s, transform .22s cubic-bezier(.3,1.7,.5,1); }
+.toggle::after { transition: left .3s cubic-bezier(.3,1.5,.5,1); }
+
+/* Startseite: Karten blenden beim Öffnen weich ein */
+.post { animation: cardIn .45s cubic-bezier(.2,.8,.25,1) both; }
+.post:nth-child(2) { animation-delay: .05s; } .post:nth-child(3) { animation-delay: .1s; } .post:nth-child(4) { animation-delay: .15s; }
+@keyframes cardIn { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+
+/* Bewegung reduzieren (iOS-Einstellung) */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: .01ms !important; animation-delay: 0s !important; transition-duration: .01ms !important; }
+}
