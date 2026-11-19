@@ -8,7 +8,7 @@ self.addEventListener('message', event => { if (event.data === 'skipWaiting') se
 
 const cacheNamePrefix = 'gym-offline-';
 const cacheName = `${cacheNamePrefix}${self.assetsManifest.version}`;
-const offlineAssetsInclude = [/\.dll$/, /\.pdb$/, /\.wasm/, /\.html/, /\.js$/, /\.json$/, /\.css$/, /\.woff2?$/, /\.png$/, /\.jpe?g$/, /\.ico$/, /\.blat$/, /\.dat$/, /\.webmanifest$/];
+const offlineAssetsInclude = [/\.dll$/, /\.pdb$/, /\.wasm/, /\.html/, /\.js$/, /\.json$/, /\.css$/, /\.woff2?$/, /\.png$/, /\.jpe?g$/, /\.ico$/, /\.blat$/, /\.dat$/, /\.webmanifest$/, /\.svg$/];
 const offlineAssetsExclude = [/^service-worker\.js$/];
 const baseUrl = new URL('./', self.location);
 const manifestUrlList = self.assetsManifest.assets.map(asset => new URL(asset.url, baseUrl).href);
@@ -39,4 +39,4 @@ async function onFetch(event) {
     }
     return cached || fetch(event.request);
 }
-/* Manifest version: GACleMWe */
+/* Manifest version: 8iqagNBH */

@@ -121,6 +121,11 @@ window.gym = (function () {
         setTimeout(() => { URL.revokeObjectURL(url); a.remove(); }, 2000);
         return 'downloaded';
     }
+    async function shareText(text) {
+        try { if (navigator.share) { await navigator.share({ text }); return 'shared'; } }
+        catch (e) { if (e && e.name === 'AbortError') return 'aborted'; }
+        try { await navigator.clipboard.writeText(text); return 'copied'; } catch (e) { return 'failed'; }
+    }
     async function copyText(text) {
         try { await navigator.clipboard.writeText(text); return true; } catch (e) { return false; }
     }
@@ -189,6 +194,6 @@ window.gym = (function () {
             setTimeout(() => location.reload(), 400);
         });
     }
-    return { idbGet, idbSet, idbDel, loadBoth, persist, storageInfo, setWake, beep, shareFile, copyText, pickPhoto, getPhoto, openImage,
+    return { idbGet, idbSet, idbDel, loadBoth, persist, storageInfo, setWake, beep, shareFile, shareText, copyText, pickPhoto, getPhoto, openImage,
         register, isStandalone, isIos, scrollTop, scrollBottom, getScroll, setScroll, setTheme, focus, blurActive, watchUpdates, applyUpdate };
 })();
