@@ -165,6 +165,28 @@ window.gym = (function () {
     let dotnetRef = null;
     function register(ref) { dotnetRef = ref; initGestures(); }
 
+    // ---- iOS-Fehler bei Home-Bildschirm-Apps: Der sichtbare Bereich endet um die Höhe der
+    // Statusleiste zu früh (unten bleibt ein Streifen). Lücke messen und die App dorthin verlängern.
+    function fixViewport() {
+        let gap = 0;
+        try {
+            const standalone = navigator.standalone === true || matchMedia('(display-mode: standalone)').matches;
+            if (standalone && innerHeight > innerWidth) {
+                const sh = Math.max(screen.width, screen.height);
+                gap = Math.round(sh - innerHeight);
+                if (gap < 0 || gap > 80) gap = 0;
+            }
+        } catch (_) { gap = 0; }
+        document.documentElement.style.setProperty('--vgap', gap + 'px');
+        return gap;
+    }
+    fixViewport();
+    addEventListener('resize', fixViewport);
+    addEventListener('orientationchange', () => setTimeout(fixViewport, 300));
+    addEventListener('pageshow', fixViewport);
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) setTimeout(fixViewport, 100); });
+    if (window.visualViewport) visualViewport.addEventListener('resize', fixViewport);
+
     // ---- Gesten wie bei iOS: vom linken Rand zurückwischen, Sheets nach unten ziehen
     let gesturesReady = false;
     function initGestures() {
@@ -300,5 +322,5 @@ window.gym = (function () {
         });
     }
     return { idbGet, idbSet, idbDel, loadBoth, persist, storageInfo, setWake, beep, shareFile, shareText, copyText, pickPhoto, getPhoto, openImage,
-        register, isStandalone, isIos, segPill, scrollTopSmooth, scrollTop, scrollBottom, getScroll, setScroll, setTheme, focus, blurActive, watchUpdates, applyUpdate };
+        register, isStandalone, isIos, fixViewport, segPill, scrollTopSmooth, scrollTop, scrollBottom, getScroll, setScroll, setTheme, focus, blurActive, watchUpdates, applyUpdate };
 })();
