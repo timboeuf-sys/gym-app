@@ -25,19 +25,19 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-EIFD6i3yOsjjX3vmk\/WxyeJXzGL4yONmJQfCVYkSKYI=",
+      "hash": "sha256-qr\/NZ6tE7BcBqrqZTZGU85wLSkqgQ2BrUfda\/MLPIvg=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-kbmXzeEkGQ4Zrev6LUWs7RJ\/RGRrUHT8iwy7mWHA7eI=",
+      "hash": "sha256-W3\/BVPIbicBTfbafTbz1f0DDaIlsKci6ZDH6TiL6hUo=",
       "url": "_framework\/GymApp.Core.wasm"
     },
     {
-      "hash": "sha256-DOo88hnio05W+rlTMmUkh+tDhsMls1TJ1V9h5FTLI\/U=",
+      "hash": "sha256-lSKbU6HcFthRUUugtWZHRBIM8vIX3JW7py2zm7pwhUM=",
       "url": "_framework\/GymApp.Web.wasm"
     },
     {
-      "hash": "sha256-pKOO5NSKKJY5RFp7jDVeJVG1kjg7pyHVIMwd0MmajQI=",
+      "hash": "sha256-rQlGohHQ82uo6B9O+Jqs4uiJ9LpQuAlyB3MRRn9le14=",
       "url": "_framework\/Microsoft.AspNetCore.Components.wasm"
     },
     {
@@ -109,7 +109,7 @@
       "url": "_framework\/System.Console.wasm"
     },
     {
-      "hash": "sha256-LI3OBQbUzFpDE3U20uXxWWxM7GLSWjZyK9M2OCAkiSY=",
+      "hash": "sha256-VGpUWtoxFpnNL8VIwFARndWQjSVNMGjhmLsKn9dJOPQ=",
       "url": "_framework\/System.Linq.wasm"
     },
     {
@@ -117,7 +117,7 @@
       "url": "_framework\/System.Memory.wasm"
     },
     {
-      "hash": "sha256-FHmvNATbF\/IN2+tLPFRd8cESOfDcUqXlrCtkL3pbmng=",
+      "hash": "sha256-BQBv4ugJqXXhYAvnHLRBbhXyMjth86nZA40eBDYvxhU=",
       "url": "_framework\/System.Private.CoreLib.wasm"
     },
     {
@@ -129,7 +129,7 @@
       "url": "_framework\/System.Runtime.InteropServices.JavaScript.wasm"
     },
     {
-      "hash": "sha256-S3Jt16xoUrPZPbqoOj8sxkUxLVeMo86dDfWjL3gN13o=",
+      "hash": "sha256-gatvUcjA24QfYI3TxN0Xpmz6zQ0V6vB2Q9HAh+BUSyw=",
       "url": "_framework\/System.Runtime.wasm"
     },
     {
@@ -149,7 +149,7 @@
       "url": "apple-touch-icon.png"
     },
     {
-      "hash": "sha256-uV1lT1JH1CFznpXU9kgU3oWG7u8D0YWV4ZOmr2TF6XU=",
+      "hash": "sha256-woveA\/v+tXDV6Z89skPdpxFe1MF1uwNejcg2XCmTwdE=",
       "url": "css\/app.css"
     },
     {
@@ -1977,7 +1977,7 @@
       "url": "index.html"
     },
     {
-      "hash": "sha256-bQx9ATrTUcIufJFjzgV0e0zEbxFZqmkTfb+QQbD\/E0E=",
+      "hash": "sha256-zNFTh1iYqF6Rk1GZX65PAz3a7zgsWgzug2kx3470xnI=",
       "url": "js\/gym.js"
     },
     {
@@ -1985,5 +1985,5 @@
       "url": "manifest.webmanifest"
     }
   ],
-  "version": "r8cnf4db"
+  "version": "tID2RoUE"
 };

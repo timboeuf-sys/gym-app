@@ -163,7 +163,7 @@ window.gym = (function () {
 
     // ---- Sonstiges
     let dotnetRef = null;
-    function register(ref) { dotnetRef = ref; initGestures(); setTimeout(heal, 300); setTimeout(heal, 1500); if (updatePending) notifyUpdate(); }
+    function register(ref) { dotnetRef = ref; initGestures(); initTabbar(); setTimeout(heal, 300); setTimeout(heal, 1500); if (updatePending) notifyUpdate(); }
 
     // ---- iOS-Fehler bei Home-Bildschirm-Apps (beide kosten genau die Höhe der Statusleiste):
     // 1. Kaltstart: mit height:100% bekommt die App zu wenig Höhe, darunter zeichnet WebKit nichts.
@@ -216,6 +216,84 @@ window.gym = (function () {
 
     // ---- Gesten wie bei iOS: vom linken Rand zurückwischen, Sheets nach unten ziehen
     let gesturesReady = false;
+    // ---- Tab-Leiste wie iOS: Tippen = Linse springt rüber; halten oder auf dem aktiven Tab ziehen
+    //      = Linse hebt ab und folgt dem Finger, Loslassen wählt den Tab darunter
+    function initTabbar() {
+        if (initTabbar.done) return;
+        initTabbar.done = true;
+        let st = null, suppressClick = false;
+        const PAD = 5, LIFT_MS = 260;
+        const tabsOf = bar => Array.from(bar.querySelectorAll('.tab'));
+        const cur = bar => parseInt(bar.style.getPropertyValue('--ti')) || 0;
+        const geo = bar => { const r = bar.getBoundingClientRect(), n = tabsOf(bar).length || 3; return { r, n, slot: (r.width - 2 * PAD) / n }; };
+        const slotAt = (bar, x) => { const g = geo(bar); return Math.max(0, Math.min(g.n - 1, Math.floor((x - g.r.left - PAD) / g.slot))); };
+        const place = (bar, x) => {
+            const g = geo(bar), ti = cur(bar);
+            let cx = x - g.r.left;
+            const lo = PAD + g.slot / 2, hi = g.r.width - PAD - g.slot / 2;
+            cx = Math.max(lo - 8, Math.min(hi + 8, cx));               // am Rand leicht über das Ende hinaus
+            bar.style.setProperty('--dx', (cx - (PAD + g.slot * ti + g.slot / 2)).toFixed(1) + 'px');
+            const under = Math.max(0, Math.min(g.n - 1, Math.round((cx - lo) / g.slot)));
+            bar.dataset.under = under;
+            tabsOf(bar).forEach((t, i) => t.classList.toggle('under', i === under));
+        };
+        const lift = () => {
+            if (!st || st.lifted) return;
+            st.lifted = true;
+            st.bar.classList.remove('hop', 'landing');
+            st.bar.classList.add('lifted');
+            place(st.bar, st.x);
+        };
+        const finish = (cancel) => {
+            const s = st; st = null;
+            if (!s) return;
+            clearTimeout(s.timer);
+            if (!s.lifted) return;                                       // normaler Tipp: click übernimmt
+            suppressClick = true; setTimeout(() => { suppressClick = false; }, 450);
+            const bar = s.bar, from = cur(bar);
+            const target = cancel ? from : parseInt(bar.dataset.under ?? from);
+            bar.classList.remove('lifted');
+            bar.classList.add('landing');
+            tabsOf(bar).forEach(t => t.classList.remove('under'));
+            bar.style.setProperty('--ti', target);                       // sofort Zielplatz, Rest federt
+            bar.style.setProperty('--dx', '0px');
+            clearTimeout(bar._landT); bar._landT = setTimeout(() => bar.classList.remove('landing'), 600);
+            if (target !== from && dotnetRef) dotnetRef.invokeMethodAsync('TabDrop', target).catch(() => { });
+        };
+        document.addEventListener('pointerdown', e => {
+            const bar = e.target.closest ? e.target.closest('.tabbar') : null;
+            if (!bar || (e.pointerType === 'mouse' && e.button !== 0)) return;
+            const idx = slotAt(bar, e.clientX);
+            st = { bar, id: e.pointerId, x0: e.clientX, y0: e.clientY, x: e.clientX, lifted: false, onSel: idx === cur(bar) };
+            st.timer = setTimeout(lift, LIFT_MS);
+        }, true);
+        document.addEventListener('pointermove', e => {
+            if (!st || e.pointerId !== st.id) return;
+            st.x = e.clientX;
+            if (!st.lifted) {
+                const dx = Math.abs(e.clientX - st.x0), dy = Math.abs(e.clientY - st.y0);
+                if (st.onSel && dx > 7) { clearTimeout(st.timer); lift(); }
+                else if (dx > 16 || dy > 16) { clearTimeout(st.timer); st = null; }
+                return;
+            }
+            place(st.bar, e.clientX);
+            if (e.cancelable) e.preventDefault();
+        }, { capture: true, passive: false });
+        document.addEventListener('pointerup', e => { if (st && e.pointerId === st.id) finish(false); }, true);
+        document.addEventListener('pointercancel', e => { if (st && e.pointerId === st.id) finish(true); }, true);
+        document.addEventListener('contextmenu', e => { if (e.target.closest && e.target.closest('.tabbar')) e.preventDefault(); }, true);
+        document.addEventListener('click', e => {
+            const bar = e.target.closest ? e.target.closest('.tabbar') : null;
+            if (!bar) return;
+            if (suppressClick) { suppressClick = false; e.stopPropagation(); e.preventDefault(); return; }
+            const tab = e.target.closest('.tab');
+            const i = tab ? tabsOf(bar).indexOf(tab) : -1;
+            if (i >= 0 && i !== cur(bar)) {
+                bar.classList.remove('hop'); void bar.offsetWidth; bar.classList.add('hop');
+                clearTimeout(bar._hopT); bar._hopT = setTimeout(() => bar.classList.remove('hop'), 620);
+            }
+        }, true);
+    }
     function initGestures() {
         if (gesturesReady) return; gesturesReady = true;
         const EDGE = 28, EASE = 'cubic-bezier(.2,.8,.2,1)';

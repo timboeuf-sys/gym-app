@@ -1,4 +1,4 @@
-// Gym-App 1.4.0 – 2026-11-19 14:27
+// Gym-App 1.5.0 – 2026-11-20 14:03
 // Offline-Betrieb: Alle App-Dateien werden beim ersten Laden zwischengespeichert.
 // Danach startet die App komplett ohne Internet. Updates werden geladen, sobald wieder Internet da ist.
 self.importScripts('./service-worker-assets.js');
@@ -40,4 +40,4 @@ async function onFetch(event) {
     }
     return cached || fetch(event.request);
 }
-/* Manifest version: r8cnf4db */
+/* Manifest version: tID2RoUE */
